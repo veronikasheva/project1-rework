@@ -1,0 +1,101 @@
+//  тут шрифти 400 Manrope ==================>
+.regular_title {
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    &_0 {
+        font-size: 12px;
+    }
+    &_1 {
+        font-size: 14px;
+    }
+    &_2 {
+        font-size: 16px;
+    }
+    &_3 {
+        font-size: 18px;
+    }
+    &_6 {
+        font-size: 30px;
+    }
+}
+
+//  тут шрифти 700 Manrope ==================>
+.bold_title {
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    &_0 {
+        font-size: 12px;
+    }
+    &_1 {
+        font-size: 14px;
+    }
+    &_2 {
+        font-size: 16px;
+    }
+}
+
+.color {
+    &_black {
+        color: #000000;
+    }
+    &_white {
+        color: #fff;
+    }
+    &_red {
+        color: #CF1A20;
+    }
+    &_gray {
+        color: #828282;
+    }
+    &_gray1 {
+        color: #333333;
+    }
+    &_gray2 {
+        color: #272C35;
+    }
+    
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    &_1 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+        position: relative;
+        padding-left: 50px;
+        min-width: 30%;
+        &::before{
+            content: '';
+            width: 32px;
+            height: 1px;
+            background: #D9CB9E;
+            position: absolute;
+            left: 0px;
+            top: 15px;
+        }
+    }
+    &_2 {
+        @media (max-width: 1000px) {
+            display: none;
+        }
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 59px;
+        color: #2C2C2C;
+        //border: 1px solid #2C2C2C;
+        //backdrop-filter: blur(2px);
+    }
+}
+
+.text_std {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #BDC3C7;
+}

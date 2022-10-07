@@ -1,0 +1,83 @@
+// .btn_standart {
+//     transition: all .2s;
+//     min-width: 170px;
+//     display: block;
+//     cursor: pointer;
+//     width: -moz-fit-content;
+//     width: fit-content;
+//     letter-spacing: normal;
+//     text-align: center;
+//     display: flex;
+//     
+//     border: none;
+//     outline: none;
+//     padding: 14.5px 10px;
+//     &_red {
+//         background: linear-gradient(180deg, #CF1A20 0%, #EE2A26 100%);
+//         box-shadow: 0px 10px 10px rgba(115, 202, 194, 0.5);
+//         border: solid 1px transparent !important;
+//         &:hover {
+//             border: solid 1px transparent !important;
+//             background: linear-gradient(180deg, rgb(168, 20, 25) 0%, rgb(194, 33, 30) 100%);
+//         }
+//     }
+//     &_white {
+//         background: #fff;
+//         box-shadow: 0px 10px 10px rgba(115, 202, 194, 0.5);
+//         border: solid 1px transparent !important;
+//         &:hover {
+//             border: solid 1px rgb(189, 210, 208) !important;
+//             background: rgb(189, 210, 208);
+//             color: #fff;
+//         }
+//     }
+// }
+
+.btn_red {
+    background: #CC3759;
+    // width: 210px;
+    color: white;
+    height: 62px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+    &:hover {
+        //border: solid 1px transparent;
+        box-shadow: 0px 20px 50px -10px rgba(204, 55, 89, 0.3);
+    }
+    &:active {
+        box-shadow: inset 0px 20px 50px -10px rgba(204, 55, 89, 0.3);
+    }
+}
+
+.btn_green {
+    color: #378858;
+    border: 1px solid #378858;
+    box-shadow: 0px 20px 50px -10px rgba(204, 55, 89, 0.3);
+    height: 62px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+    &:hover {
+        color: #FFFFFF;
+        background: #378858;
+        border: 1px solid #378858;
+        box-shadow: 0px 20px 50px -10px rgba(55, 136, 88, 0.2);
+    }
+}
+
+.btn_white {
+    background: #FFFFFF;
+    width: 210px;
+    color: #CE0F18;
+    height: 62px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    &:hover {
+        //border: solid 1px transparent;
+        box-shadow: 0px 5px 5px rgba(139, 139, 139, 0.29);
+    }
+}

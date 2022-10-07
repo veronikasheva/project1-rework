@@ -1,0 +1,17 @@
+sudo ln -s /home/jurgeon/projects/brock/src/config/brock         /etc/nginx/sites-enabled/
+sudo ln -s /home/jurgeon/projects/brock/src/config/brock.service /etc/systemd/system/
+
+sudo systemctl enable nginx
+sudo systemctl start nginx
+sudo systemctl restart nginx
+# sudo systemctl status nginx
+
+sudo systemctl enable brock
+sudo systemctl start brock
+sudo systemctl restart brock
+# sudo systemctl status brock
+
+sudo systemctl daemon-reload
+
+sudo certbot --nginx -d brock.starway.agency
+sudo certbot renew --dry-run
