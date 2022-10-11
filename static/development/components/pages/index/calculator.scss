@@ -62,6 +62,7 @@
         }
     }
     &_course {
+
         display: flex;
         div:not(:last-child) {
             margin-right: 20px;
@@ -72,15 +73,42 @@
 @media (max-width: 1000px) {
     .calculator__middle {
         flex-direction: column;
+        margin-top: 20px;
     }
     .calculator__left, 
     .calculator__right {
         width: 100%;
+        padding: 0;
     }
     .calculator__bottom, .calculator__btn {
         flex-direction: column-reverse;
         button, div {
             width: 100%;
         }
+        div {
+            margin-bottom: 10px;
+        }
+    }
+    .calculator_course {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .input_section {
+        width: 100%;
+    }
+    .input_section_container {
+        flex-direction: column;
+    }  
+    .calculator__top {
+        flex-direction: column;
+        align-items: flex-start;
+        input[type="number"] {
+            width: 100%;
+        }
+    }
+    .radio_section {
+        padding: 0 20px 20px 20px;
     }
 }

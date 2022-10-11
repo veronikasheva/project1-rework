@@ -10,6 +10,9 @@ section {
     @media (max-width: 1000px) {
         margin: 0;
     }
+    @media (max-width: 450px) {
+        padding: 20px;
+    }
     margin: 0 100px;
     padding-top: 0;
     padding: 40px;
@@ -30,11 +33,18 @@ section {
     @media (max-width: 1000px) {
         padding-top: 60px;
     }
+    position: relative;
     &__slide {
-        background-repeat: no-repeat;
-        // background-size: contain;
-        background-position: right;
-        background-blend-mode: color;
+        // background-repeat: no-repeat;
+        // // background-size: contain;
+        // background-position: right;
+        // background-blend-mode: color;
+        img {
+            width: 100%;
+            max-height: 650px;
+            height: 100%;
+            object-fit: cover;
+        }
     }
 
     &__left {
@@ -42,6 +52,10 @@ section {
             padding: 5%;
         }
         padding: 100px;
+        position: absolute;
+        z-index: 1000;
+        top: 5%;
+        left: 0;
     }
 
     &__title {
@@ -69,6 +83,17 @@ section {
 }
 
 .work {
+    @media (max-width: 700px) {
+        .work__item {
+            width: 48%;
+            font-size: 12px;
+            padding: 10px;
+
+            span {
+                font-size: 30px;
+            }
+        }
+    }
     text-align: center;
 
     &__items {
@@ -110,6 +135,27 @@ section {
 }
 
 .why_us {
+    @media (max-width: 1000px) {
+        flex-direction: column;
+        .why_us__left,
+        .why_us__right {
+            width: 100%;
+        }
+        .why_us__text {
+            padding: 0;
+            margin-top: 20px;
+            &:last-child {
+                margin: 20px 0;
+            }
+        }
+    }
+
+    @media (max-width: 600px) {
+        .why_us__text-2 {
+            font-size: 20px;
+        }
+    }
+
     display: flex;
 
     &__left {
@@ -139,6 +185,28 @@ section {
     }
 
     .experience {
+        @media (max-width: 1000px) {
+            top: 0;
+            left: 0;
+            padding: 15px;
+        }
+        @media (max-width: 500px) {
+            width: 160px;
+            .experience__text-1 {
+                font-size: 12px;
+                div {
+                    font-size: 14px;
+                }
+            }
+            .experience__text-2 {
+                font-size: 12px;
+                line-height: 14px;
+                div {
+                    font-size: 30px;
+                    line-height: 35px;
+                }
+            }
+        }
         width: 305px;
         background: rgba(0, 0, 0, 0.3);
         backdrop-filter: blur(6px);
@@ -184,6 +252,18 @@ section {
 }
 
 .services {
+    @media (max-width: 1000px) {
+        flex-direction: column;
+        .services__left,
+        .services__right {
+            width: 100%;
+        }
+    }
+    @media (max-width: 600px) {
+        .services__item {
+            width: 48%;
+        }
+    }
     display: flex;
 
     &__left {

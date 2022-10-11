@@ -7,6 +7,9 @@
  * 3. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
  *  `em` units.
  */
+html {
+  scroll-behavior: smooth; }
+
 body {
   position: relative;
   min-height: 100vh;
@@ -561,6 +564,9 @@ main {
     position: relative;
     padding-left: 50px;
     min-width: 30%; }
+    @media (max-width: 700px) {
+      .title_1 {
+        font-size: 20px; } }
     .title_1::before {
       content: '';
       width: 32px;
@@ -1639,7 +1645,7 @@ button.swiper-pagination-bullet {
     .nav {
       opacity: 0;
       position: fixed;
-      left: -300px;
+      left: -1000px;
       top: 60px;
       flex-direction: column;
       align-items: center;
@@ -1720,6 +1726,9 @@ section {
   @media (max-width: 1000px) {
     section {
       margin: 0; } }
+  @media (max-width: 450px) {
+    section {
+      padding: 20px; } }
 
 .section_bg {
   background: rgba(255, 255, 255, 0.1);
@@ -1727,40 +1736,50 @@ section {
   .section_bg:not(:last-child) {
     margin-bottom: 20px; }
 
-@media (max-width: 1000px) {
-  .banner {
-    padding-top: 60px; } }
-
-.banner__slide {
-  background-repeat: no-repeat;
-  background-position: right;
-  background-blend-mode: color; }
-
-.banner__left {
-  padding: 100px; }
+.banner {
+  position: relative; }
   @media (max-width: 1000px) {
-    .banner__left {
-      padding: 5%; } }
-
-.banner__title {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 43px;
-  line-height: 50px; }
-  .banner__title-1 {
-    color: #FFFFFF; }
-  .banner__title-2 {
-    color: #D9CB9E; }
-
-.banner__text {
-  margin: 40px 0;
-  color: #FFFFFF;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 23px; }
+    .banner {
+      padding-top: 60px; } }
+  .banner__slide img {
+    width: 100%;
+    max-height: 650px;
+    height: 100%;
+    object-fit: cover; }
+  .banner__left {
+    padding: 100px;
+    position: absolute;
+    z-index: 1000;
+    top: 5%;
+    left: 0; }
+    @media (max-width: 1000px) {
+      .banner__left {
+        padding: 5%; } }
+  .banner__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 43px;
+    line-height: 50px; }
+    .banner__title-1 {
+      color: #FFFFFF; }
+    .banner__title-2 {
+      color: #D9CB9E; }
+  .banner__text {
+    margin: 40px 0;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px; }
 
 .work {
   text-align: center; }
+  @media (max-width: 700px) {
+    .work .work__item {
+      width: 48%;
+      font-size: 12px;
+      padding: 10px; }
+      .work .work__item span {
+        font-size: 30px; } }
   .work__items {
     display: flex;
     justify-content: space-between;
@@ -1788,6 +1807,20 @@ section {
 
 .why_us {
   display: flex; }
+  @media (max-width: 1000px) {
+    .why_us {
+      flex-direction: column; }
+      .why_us .why_us__left,
+      .why_us .why_us__right {
+        width: 100%; }
+      .why_us .why_us__text {
+        padding: 0;
+        margin-top: 20px; }
+        .why_us .why_us__text:last-child {
+          margin: 20px 0; } }
+  @media (max-width: 600px) {
+    .why_us .why_us__text-2 {
+      font-size: 20px; } }
   .why_us__left {
     width: 60%; }
   .why_us__text {
@@ -1815,6 +1848,24 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center; }
+    @media (max-width: 1000px) {
+      .why_us .experience {
+        top: 0;
+        left: 0;
+        padding: 15px; } }
+    @media (max-width: 500px) {
+      .why_us .experience {
+        width: 160px; }
+        .why_us .experience .experience__text-1 {
+          font-size: 12px; }
+          .why_us .experience .experience__text-1 div {
+            font-size: 14px; }
+        .why_us .experience .experience__text-2 {
+          font-size: 12px;
+          line-height: 14px; }
+          .why_us .experience .experience__text-2 div {
+            font-size: 30px;
+            line-height: 35px; } }
     .why_us .experience__text-1 {
       font-weight: 500;
       font-size: 15px;
@@ -1839,6 +1890,15 @@ section {
 
 .services {
   display: flex; }
+  @media (max-width: 1000px) {
+    .services {
+      flex-direction: column; }
+      .services .services__left,
+      .services .services__right {
+        width: 100%; } }
+  @media (max-width: 600px) {
+    .services .services__item {
+      width: 48%; } }
   .services__left {
     width: 40%; }
     .services__left button {
@@ -1985,14 +2045,33 @@ section {
 
 @media (max-width: 1000px) {
   .calculator__middle {
-    flex-direction: column; }
+    flex-direction: column;
+    margin-top: 20px; }
   .calculator__left,
   .calculator__right {
-    width: 100%; }
+    width: 100%;
+    padding: 0; }
   .calculator__bottom, .calculator__btn {
     flex-direction: column-reverse; }
     .calculator__bottom button, .calculator__bottom div, .calculator__btn button, .calculator__btn div {
-      width: 100%; } }
+      width: 100%; }
+    .calculator__bottom div, .calculator__btn div {
+      margin-bottom: 10px; }
+  .calculator_course {
+    margin: 20px 0; } }
+
+@media (max-width: 700px) {
+  .input_section {
+    width: 100%; }
+  .input_section_container {
+    flex-direction: column; }
+  .calculator__top {
+    flex-direction: column;
+    align-items: flex-start; }
+    .calculator__top input[type="number"] {
+      width: 100%; }
+  .radio_section {
+    padding: 0 20px 20px 20px; } }
 
 
 /*# sourceMappingURL=index.css.map*/
