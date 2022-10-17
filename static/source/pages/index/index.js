@@ -20820,8 +20820,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
  // script common elements
-// import '../components/module/catalog_elements/index'
-// import '../components/module/subscribe_section/index'
 
 
 
@@ -20829,8 +20827,6 @@ __webpack_require__.r(__webpack_exports__);
  // script pages
 
 
- // import '../components/module/validation/index'
-// import '../components/common_componentc/form_action/index'
 
 
 

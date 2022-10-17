@@ -23,6 +23,9 @@ section {
     backdrop-filter: blur(2px);
 
     &:not(:last-child) {
+        @media (max-width: 1000px) {
+            margin-bottom: 0;
+        }
         margin-bottom: 20px;
     }
 }
@@ -34,7 +37,8 @@ section {
         padding-top: 60px;
         .banner__left {
             position: relative;
-            top: -150px;
+            //top: -150px;
+            margin-top: -150px;
         }
         .banner__title-1 {
             font-size: 35px;
@@ -43,6 +47,9 @@ section {
         .banner__title-2 {
             font-size: 50px;
             line-height: 59px;
+        }
+        .swiper-pagination {
+            position: static;
         }
     }
     position: relative;
@@ -107,6 +114,9 @@ section {
             span {
                 font-size: 30px;
             }
+        }
+        .work__items {
+            margin-top: 0px;
         }
     }
     text-align: center;
@@ -411,6 +421,9 @@ section {
                     width: 100%;
                 }
             }
+        }
+        iframe {
+            height: 250px;
         }
     }
     &__top {
