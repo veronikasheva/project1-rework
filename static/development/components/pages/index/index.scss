@@ -38,7 +38,7 @@ section {
         .banner__left {
             position: relative;
             //top: -150px;
-            margin-top: -150px;
+            margin-top: -140px;
         }
         .banner__title-1 {
             font-size: 35px;
@@ -50,6 +50,9 @@ section {
         }
         .swiper-pagination {
             position: static;
+        }
+        .banner__text {
+            margin: 20px 0;
         }
     }
     position: relative;

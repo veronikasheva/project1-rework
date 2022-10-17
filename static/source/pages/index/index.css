@@ -1767,7 +1767,7 @@ section {
       padding-top: 60px; }
       .banner .banner__left {
         position: relative;
-        margin-top: -150px; }
+        margin-top: -140px; }
       .banner .banner__title-1 {
         font-size: 35px;
         line-height: 41px; }
@@ -1775,7 +1775,9 @@ section {
         font-size: 50px;
         line-height: 59px; }
       .banner .swiper-pagination {
-        position: static; } }
+        position: static; }
+      .banner .banner__text {
+        margin: 20px 0; } }
   .banner__slide img {
     width: 100%;
     max-height: 650px;

@@ -20035,6 +20035,12 @@ var header = document.querySelector('.header');
 hamburger.addEventListener('click', function () {
   return header.classList.toggle('active');
 });
+var navigation = header.querySelector('.nav');
+navigation.addEventListener('click', function (e) {
+  if (header.classList.contains('active') && e.target.tagName === 'A') {
+    header.classList.remove('active');
+  }
+});
 
 /***/ }),
 
