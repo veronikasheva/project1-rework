@@ -1787,6 +1787,47 @@ section {
         position: static; }
       .banner .banner__text {
         margin: 20px 0; } }
+  .banner__top {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #D9CB9E;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    padding: 10px 20px;
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    z-index: 1000; }
+    @media (max-width: 1000px) {
+      .banner__top {
+        position: static;
+        width: 100%;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center; } }
+    .banner__top span {
+      font-weight: 600; }
+      .banner__top span:first-child {
+        color: yellow; }
+      .banner__top span:last-child {
+        color: blue; }
+  .banner__img {
+    position: absolute;
+    z-index: 1000; }
+    .banner__img-1 {
+      right: 5%;
+      bottom: 0; }
+      @media (max-width: 1000px) {
+        .banner__img-1 {
+          display: none; } }
+    .banner__img-2 {
+      right: 0%;
+      bottom: -15%; }
+      @media (max-width: 1000px) {
+        .banner__img-2 {
+          display: none; } }
   .banner__slide img {
     width: 100%;
     max-height: 650px;
