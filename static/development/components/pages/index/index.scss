@@ -32,6 +32,18 @@ section {
 .banner {
     @media (max-width: 1000px) {
         padding-top: 60px;
+        .banner__left {
+            position: relative;
+            top: -150px;
+        }
+        .banner__title-1 {
+            font-size: 35px;
+            line-height: 41px;
+        }
+        .banner__title-2 {
+            font-size: 50px;
+            line-height: 59px;
+        }
     }
     position: relative;
     &__slide {
@@ -61,14 +73,17 @@ section {
     &__title {
         font-style: normal;
         font-weight: 900;
-        font-size: 43px;
-        line-height: 50px;
+        
 
         &-1 {
+            font-size: 43px;
+            line-height: 50px;
             color: #FFFFFF;
         }
 
         &-2 {
+            font-size: 57px;
+            line-height: 67px;
             color: #D9CB9E;
         }
     }
@@ -258,6 +273,14 @@ section {
         .services__right {
             width: 100%;
         }
+        .services__left {
+            button {
+                margin: 20px 0;
+            }
+        }
+        .services__title {
+            margin-top: 0;
+        }
     }
     @media (max-width: 600px) {
         .services__item {
@@ -314,6 +337,18 @@ section {
 }
 
 .about {
+    @media (max-width: 1000px) {
+        .about__top {
+            flex-direction: column;
+        }
+        .about__left, 
+        .about__right {
+            width: 100%;
+        }
+        .about__right {
+            padding: 15px;
+        }
+    }
     &__top {
         display: flex;
     }
@@ -361,6 +396,23 @@ section {
 }
 
 .contacts {
+    @media (max-width: 1000px) {
+        .contacts__top {
+            flex-direction: column;
+            justify-content: flex-start;
+            button {
+                margin-bottom: 20px;
+            }
+            address {
+                flex-direction: column;
+                margin-right: 0px;
+                width: 100%;
+                a {
+                    width: 100%;
+                }
+            }
+        }
+    }
     &__top {
         display: flex;
         align-items: center;

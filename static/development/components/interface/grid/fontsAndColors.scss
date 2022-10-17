@@ -59,6 +59,12 @@
 }
 
 .title {
+    @media (max-width: 1000px) {
+        flex-direction: column;
+        .title_1 {
+            margin-bottom: 20px;
+        }
+    }
     display: flex;
     justify-content: space-between;
     &_1 {
