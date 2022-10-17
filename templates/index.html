@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/static/source/pages/index/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
     <link href="{{site.image_url}}" rel="icon" type="png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="/media/logo.jpg" />
@@ -98,6 +98,9 @@
         </div>
 
         <div class="modal__block modal_consultation text_std">
+            <div class="modal_close modal_close-x">
+                x
+            </div>
             <form action="{% url 'contact' %}" class="validation__block consultation_form">
                 <!-- {% csrf_token %} -->
                 <div class="validation_container input_section">
@@ -150,7 +153,9 @@
                     </div>
                 </h1>
                 <div class="banner__text">
-                    допоможуть Вам заощадити час та кошти
+                    допоможуть Вам заощадити 
+                    <br/>
+                    час та кошти
                 </div>
                 <button class="btn_red modal_open" data-href="modal_consultation">
                     Безкоштовна консультація
@@ -172,7 +177,7 @@
                 <div class="calculator__middle">
                     <div class="calculator__left">
                         <div class="calculator__top validation_container">
-                            <div class="calculator__top-title">Ціна авномобіля</div>
+                            <div class="calculator__top-title">Ціна автомобіля</div>
                             <input type="number" name="price" placeholder="10000" class="validation_input"
                                 data-type="required">
                             <div class="radio_section">
@@ -655,6 +660,7 @@
                     <a>
                         Понеділок - П'ятниця
                         з 9:00 до 18:00
+                        <br/>
                         Субота - Неділя Вихідні
                     </a>
                     <a href="">

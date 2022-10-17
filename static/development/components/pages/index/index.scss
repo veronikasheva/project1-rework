@@ -236,12 +236,13 @@ section {
             }
         }
         width: 305px;
+        height: 115px;
         background: rgba(0, 0, 0, 0.3);
         backdrop-filter: blur(6px);
         padding: 30px 40px;
         position: absolute;
         left: -150px;
-        top: 30px;
+        top: 0px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -361,6 +362,9 @@ section {
         .about__right {
             padding: 15px;
         }
+    }
+    .text_std {
+        font-weight: 300;
     }
     &__top {
         display: flex;

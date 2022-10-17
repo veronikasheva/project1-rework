@@ -679,7 +679,6 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none; }
 
 .input_section {
-  border: 1px solid #2C2C2C;
   width: 30%;
   position: relative;
   margin-bottom: 30px; }
@@ -689,18 +688,15 @@ input::-webkit-inner-spin-button {
     justify-content: space-between;
     margin-top: 30px; }
   .input_section label {
-    z-index: 100;
-    position: absolute;
-    top: -12px;
-    left: 20px;
-    width: fit-content; }
+    padding-left: 20px;
+    white-space: nowrap; }
   .input_section__top {
     display: flex;
     flex-direction: column; }
 
 input, select {
   background: none;
-  border: none;
+  border: 1px solid #2C2C2C;
   padding: 20px;
   width: 100%; }
   input option, select option {
@@ -787,6 +783,19 @@ input, select {
   .modal__block .validation_error {
     bottom: -20px;
     left: 10px; }
+
+.modal_close-x {
+  transition: all .2s;
+  color: #BDC3C7;
+  cursor: pointer;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px; }
+  .modal_close-x:hover {
+    color: #73CAC2; }
 
 .modal_svg {
   margin-right: 8px; }
@@ -1880,12 +1889,13 @@ section {
       width: 100%; }
   .why_us .experience {
     width: 305px;
+    height: 115px;
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(6px);
     padding: 30px 40px;
     position: absolute;
     left: -150px;
-    top: 30px;
+    top: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center; }
@@ -1984,6 +1994,9 @@ section {
   .about .about__right {
     padding: 15px; } }
 
+.about .text_std {
+  font-weight: 300; }
+
 .about__top {
   display: flex; }
 
@@ -2061,10 +2074,11 @@ section {
   position: relative; }
   .calculator__top-title {
     position: absolute;
-    top: -10px;
+    top: -20px;
     left: 20px; }
   .calculator__top input[type="number"] {
-    width: 50%; }
+    width: 50%;
+    border: none; }
 
 .calculator__middle {
   display: flex; }
