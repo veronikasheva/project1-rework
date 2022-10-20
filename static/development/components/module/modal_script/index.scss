@@ -28,20 +28,20 @@
         left: 10px;
        }
     }
-    &_close {
-        // transition: all .2s;
-        // color: #0000007a;
-        // cursor: pointer;
-        // display: flex;
-        // width: 20px;
-        // height: 20px;
-        // position: absolute;
-        // top: 20px;
-        // right: 20px;
+    &_close-x {
+        transition: all .2s;
+        color: #BDC3C7;
+        cursor: pointer;
+        display: flex;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
 
-        // &:hover {
-        //     color: #73CAC2;
-        // }
+        &:hover {
+            color: #73CAC2;
+        }
     }
     &_svg {
         margin-right: 8px;

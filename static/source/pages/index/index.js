@@ -20035,6 +20035,12 @@ var header = document.querySelector('.header');
 hamburger.addEventListener('click', function () {
   return header.classList.toggle('active');
 });
+var navigation = header.querySelector('.nav');
+navigation.addEventListener('click', function (e) {
+  if (header.classList.contains('active') && e.target.tagName === 'A') {
+    header.classList.remove('active');
+  }
+});
 
 /***/ }),
 
@@ -20440,15 +20446,43 @@ var banner = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".banner", {
   }
 });
 var partners_swiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".partners_swiper", {
-  slidesPerView: '4',
+  spaceBetween: 10,
   pagination: {
     el: ".partners-pagination",
     type: "progressbar"
+  },
+  breakpoints: {
+    1000: {
+      slidesPerView: 4
+    },
+    700: {
+      slidesPerView: 3
+    },
+    400: {
+      slidesPerView: 2
+    },
+    300: {
+      slidesPerView: 1.5
+    }
   }
 });
 var about_services = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.about_services', {
   slidesPerView: '4',
-  spaceBetween: 15
+  spaceBetween: 15,
+  breakpoints: {
+    1000: {
+      slidesPerView: 4
+    },
+    700: {
+      slidesPerView: 3
+    },
+    400: {
+      slidesPerView: 2
+    },
+    300: {
+      slidesPerView: 1.5
+    }
+  }
 });
 
 /***/ }),
@@ -20792,8 +20826,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
  // script common elements
-// import '../components/module/catalog_elements/index'
-// import '../components/module/subscribe_section/index'
 
 
 
@@ -20801,8 +20833,6 @@ __webpack_require__.r(__webpack_exports__);
  // script pages
 
 
- // import '../components/module/validation/index'
-// import '../components/common_componentc/form_action/index'
 
 
 

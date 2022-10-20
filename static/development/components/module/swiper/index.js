@@ -32,14 +32,42 @@ const banner = new Swiper(".banner", {
 })
 
 const partners_swiper = new Swiper(".partners_swiper", {
-    slidesPerView: '4',
+    spaceBetween: 10,
     pagination: {
         el: ".partners-pagination",
         type: "progressbar"
+    },
+    breakpoints: {
+        1000: {
+            slidesPerView: 4,
+        },
+        700: {
+            slidesPerView: 3,
+        },
+        400: {
+            slidesPerView: 2,
+        },
+        300: {
+            slidesPerView: 1.5,
+        }
     }
 })
 
 const about_services = new Swiper('.about_services', {
     slidesPerView: '4',
-    spaceBetween: 15
+    spaceBetween: 15,
+    breakpoints: {
+        1000: {
+            slidesPerView: 4,
+        },
+        700: {
+            slidesPerView: 3,
+        },
+        400: {
+            slidesPerView: 2,
+        },
+        300: {
+            slidesPerView: 1.5,
+        }
+    }
 })

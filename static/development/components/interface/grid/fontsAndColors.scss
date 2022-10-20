@@ -59,9 +59,18 @@
 }
 
 .title {
+    @media (max-width: 1000px) {
+        flex-direction: column;
+        .title_1 {
+            margin-bottom: 20px;
+        }
+    }
     display: flex;
     justify-content: space-between;
     &_1 {
+        @media (max-width: 700px) {
+            font-size: 20px;
+        }
         font-weight: 500;
         font-size: 24px;
         line-height: 28px;
