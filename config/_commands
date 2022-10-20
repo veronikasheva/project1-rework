@@ -4,7 +4,7 @@ sudo ln -s /home/jurgeon/projects/brock/src/config/brock.service /etc/systemd/sy
 sudo systemctl enable nginx
 sudo systemctl start nginx
 sudo systemctl restart nginx
-# sudo systemctl status nginx
+sudo systemctl status nginx
 
 sudo systemctl enable brock
 sudo systemctl start brock

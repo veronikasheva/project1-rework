@@ -2,8 +2,8 @@
 Description=uWSGI Emperor service
 
 [Service]
-ExecStartPre=/bin/bash -c 'mkdir -p /home/jurgeon/projects/dunlop/src/config; chown jurgeon:www-data /home/jurgeon/projects/dunlop/src/config'
-ExecStart=/usr/local/bin/uwsgi --emperor /home/jurgeon/projects/dunlop/src/config 
+ExecStartPre=/bin/bash -c 'mkdir -p /home/jurgeon/projects/brock/src/config; chown jurgeon:www-data /home/jurgeon/projects/brock/src/config'
+ExecStart=/usr/local/bin/uwsgi --emperor /home/jurgeon/projects/brock/src/config 
 Restart=always
 KillSignal=SIGQUIT
 Type=notify
