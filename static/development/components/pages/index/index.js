@@ -1,2 +1,2 @@
 import './index.scss'
-import './calculator.scss'
+import './calculator'

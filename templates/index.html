@@ -190,13 +190,13 @@
                             <input type="number" name="price" placeholder="10000" class="validation_input"
                                 data-type="required">
                             <div class="radio_section">
-                                <input type="radio" name="currency" id="USD" value="USD" checked>
+                                <input type="radio" name="currency" id="USD" value="0.996">
                                 <label for="USD" class="radio_label">USD</label>
-                                <input type="radio" name="currency" id="СAD" value="СAD">
+                                <input type="radio" name="currency" id="СAD" value="1.36">
                                 <label for="СAD">СAD</label>
-                                <input type="radio" name="currency" id="EURO" value="EURO">
+                                <input type="radio" name="currency" id="EURO" value="1" checked>
                                 <label for="EURO">EURO</label>
-                                <input type="radio" name="currency" id="UAN" value="UAN">
+                                <input type="radio" name="currency" id="UAN" value="36.78">
                                 <label for="UAN">UAN</label>
                             </div>
                         </div>
@@ -208,21 +208,24 @@
                             </div>
                             <div class="input_section">
                                 <label for="">Тип топлива</label>
-                                <select type="number" name="fuel">
-                                    <option value="gasoline">
+                                <select name="fuel">
+                                    <option value="gasoline" data-min_rate="50" data-max_rate="100" data-lim="3000">
                                         Бензин
                                     </option>
-                                    <option value="diesel">
+                                    <option value="diesel" data-min_rate="75" data-max_rate="150" data-lim="3500">
                                         дизель
                                     </option>
-                                    <option value="gas">
+                                    <option value="gas" data-min_rate="50" data-max_rate="100" data-lim="3000">
                                         газ
+                                    </option>
+                                    <option value="hybrid">
+                                        гібрид
                                     </option>
                                 </select>
                             </div>
                             <div class="input_section">
                                 <label for="">Рік випуску</label>
-                                <select type="number" name="year">
+                                <select name="year">
                                     <option value="2019">
                                         2019
                                     </option>
@@ -234,21 +237,21 @@
                                     </option>
                                 </select>
                             </div>
-                            <div class="input_section validation_container">
-                                <label for="">Ім’я*</label>
-                                <input type="text" name="name" placeholder="Ваше ім’я" data-type="name"
-                                    class="validation_input">
-                            </div>
-                            <div class="input_section validation_container">
-                                <label for="">Email</label>
-                                <input type="email" name="email" placeholder="Ваше email" data-type="email"
-                                    class="validation_input">
-                            </div>
-                            <div class="input_section validation_container">
-                                <label for="">Телефон*</label>
-                                <input data-type="phone" name="phone" placeholder="+3 80 (___)  ___ ___"
-                                    data-type="phone" class="validation_input">
-                            </div>
+<!--                            <div class="input_section validation_container">-->
+<!--                                <label for="">Ім’я*</label>-->
+<!--                                <input type="text" name="name" placeholder="Ваше ім’я" data-type="name"-->
+<!--                                    class="validation_input">-->
+<!--                            </div>-->
+<!--                            <div class="input_section validation_container">-->
+<!--                                <label for="">Email</label>-->
+<!--                                <input type="email" name="email" placeholder="Ваше email" data-type="email"-->
+<!--                                    class="validation_input">-->
+<!--                            </div>-->
+<!--                            <div class="input_section validation_container">-->
+<!--                                <label for="">Телефон*</label>-->
+<!--                                <input data-type="phone" name="phone" placeholder="+3 80 (___)  ___ ___"-->
+<!--                                    data-type="phone" class="validation_input">-->
+<!--                            </div>-->
                         </div>
                     </div>
                     <div class="calculator__right">
@@ -262,7 +265,7 @@
                                         Ціна (USD)
                                     </span>
                                     <span class="calculator_result__price-value">
-                                        0$
+                                        <span class="result_currency" id="result_usd" data-value="0.996">0</span> $
                                     </span>
                                 </div>
                                 <div class="calculator_result__price">
@@ -270,7 +273,7 @@
                                         Ціна (EURO)
                                     </span>
                                     <span class="calculator_result__price-value">
-                                        0€
+                                        <span class="result_currency" id="result_euro" data-value="1">0</span> €
                                     </span>
                                 </div>
                                 <div class="calculator_result__price">
@@ -278,15 +281,15 @@
                                         Ціна (СAD)
                                     </span>
                                     <span class="calculator_result__price-value">
-                                        0 ¢
+                                        <span class="result_currency" id="result_cad" data-value="1.36">0</span> ¢
                                     </span>
                                 </div>
                                 <div class="calculator_result__price">
                                     <span>
                                         Ціна (UAN)
                                     </span>
-                                    <span>
-                                        0₴
+                                    <span class="calculator_result__price-value">
+                                        <span class="result_currency" id="result_uan" data-value="36.78">0</span> ₴
                                     </span>
                                 </div>
                             </div>
@@ -315,16 +318,16 @@
                                 USD
                             </span>
                             <span>
-                                26.0927
+                                36.5686
                             </span>
                         </div>
                         <div class="calculator_course__item">
                             <span>
                                 <img src="/static/source/img/calculator/emojione_flag-for-canada.svg" alt="">
-                                EURO
+                                CAD
                             </span>
                             <span>
-                                26.0927
+                                26.6807
                             </span>
                         </div>
                         <div class="calculator_course__item">
@@ -333,7 +336,7 @@
                                 EURO
                             </span>
                             <span>
-                                26.0927
+                                35.6379
                             </span>
                         </div>
                     </div>
