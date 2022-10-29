@@ -22,7 +22,7 @@ function calculate(e) {
 
     if (status) {
         const price = +document.querySelector('input[name="price"]').value
-        const currency = document.querySelector('input[name="currency"]:checked').value
+        const currency = +document.querySelector('input[name="currency"]:checked').dataset.value
         const engine = +document.querySelector('input[name="engine"]').value
         const year = +document.querySelector('select[name="year"]').value
 

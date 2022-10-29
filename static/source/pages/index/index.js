@@ -20791,7 +20791,7 @@ function calculate(e) {
 
   if (status) {
     var price = +document.querySelector('input[name="price"]').value;
-    var currency = document.querySelector('input[name="currency"]:checked').value;
+    var currency = +document.querySelector('input[name="currency"]:checked').dataset.value;
     var engine = +document.querySelector('input[name="engine"]').value;
     var year = +document.querySelector('select[name="year"]').value;
     var fuel_select = document.querySelector('select[name="fuel"]');
@@ -20841,6 +20841,40 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _calculator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./calculator */ "../components/pages/index/calculator.js");
 
 
+fetch('https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json').then(function (response) {
+  return response.json();
+}).then(function (data) {
+  var usd = data.find(function (currency) {
+    return currency.cc === "USD";
+  });
+  var eur = data.find(function (currency) {
+    return currency.cc === "EUR";
+  });
+  var cad = data.find(function (currency) {
+    return currency.cc === "CAD";
+  });
+  var curse_usd = document.querySelector('#curse_usd');
+  var curse_euro = document.querySelector('#curse_euro');
+  var curse_cad = document.querySelector('#curse_cad');
+  curse_usd.innerHTML = usd.rate;
+  curse_euro.innerHTML = eur.rate;
+  curse_cad.innerHTML = cad.rate;
+  var ratio_usd = eur.rate / usd.rate;
+  var ratio_cad = eur.rate / cad.rate;
+  var ratio_uan = eur.rate;
+  var result_usd = document.querySelectorAll('.cff_usd');
+  var result_cad = document.querySelectorAll('.cff_cad');
+  var result_uan = document.querySelectorAll('.cff_uan');
+  result_usd.forEach(function (usd) {
+    return usd.dataset.value = ratio_usd;
+  });
+  result_cad.forEach(function (usd) {
+    return usd.dataset.value = ratio_cad;
+  });
+  result_uan.forEach(function (usd) {
+    return usd.dataset.value = ratio_uan;
+  });
+});
 
 /***/ }),
 

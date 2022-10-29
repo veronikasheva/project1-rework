@@ -190,13 +190,13 @@
                             <input type="number" name="price" placeholder="10000" class="validation_input"
                                 data-type="required">
                             <div class="radio_section">
-                                <input type="radio" name="currency" id="USD" value="0.996">
+                                <input type="radio" name="currency" id="USD" class="cff_usd">
                                 <label for="USD" class="radio_label">USD</label>
-                                <input type="radio" name="currency" id="СAD" value="1.36">
+                                <input type="radio" name="currency" id="СAD" class="cff_cad">
                                 <label for="СAD">СAD</label>
-                                <input type="radio" name="currency" id="EURO" value="1" checked>
+                                <input type="radio" name="currency" id="EURO" class="cff_euro" data-value="1" checked>
                                 <label for="EURO">EURO</label>
-                                <input type="radio" name="currency" id="UAN" value="36.78">
+                                <input type="radio" name="currency" id="UAN" class="cff_uan">
                                 <label for="UAN">UAN</label>
                             </div>
                         </div>
@@ -265,7 +265,7 @@
                                         Ціна (USD)
                                     </span>
                                     <span class="calculator_result__price-value">
-                                        <span class="result_currency" id="result_usd" data-value="0.996">0</span> $
+                                        <span class="result_currency cff_usd" id="result_usd">0</span> $
                                     </span>
                                 </div>
                                 <div class="calculator_result__price">
@@ -273,7 +273,7 @@
                                         Ціна (EURO)
                                     </span>
                                     <span class="calculator_result__price-value">
-                                        <span class="result_currency" id="result_euro" data-value="1">0</span> €
+                                        <span class="result_currency cff_euro" id="result_euro" data-value="1">0</span> €
                                     </span>
                                 </div>
                                 <div class="calculator_result__price">
@@ -281,7 +281,7 @@
                                         Ціна (СAD)
                                     </span>
                                     <span class="calculator_result__price-value">
-                                        <span class="result_currency" id="result_cad" data-value="1.36">0</span> ¢
+                                        <span class="result_currency cff_cad" id="result_cad">0</span> ¢
                                     </span>
                                 </div>
                                 <div class="calculator_result__price">
@@ -289,7 +289,7 @@
                                         Ціна (UAN)
                                     </span>
                                     <span class="calculator_result__price-value">
-                                        <span class="result_currency" id="result_uan" data-value="36.78">0</span> ₴
+                                        <span class="result_currency cff_uan" id="result_uan">0</span> ₴
                                     </span>
                                 </div>
                             </div>
@@ -317,8 +317,8 @@
                                 <img src="/static/source/img/calculator/emojione_flag-for-liberia.svg" alt="">
                                 USD
                             </span>
-                            <span>
-                                36.5686
+                            <span id="curse_usd">
+                                <!-- 36.5686 -->
                             </span>
                         </div>
                         <div class="calculator_course__item">
@@ -326,8 +326,8 @@
                                 <img src="/static/source/img/calculator/emojione_flag-for-canada.svg" alt="">
                                 CAD
                             </span>
-                            <span>
-                                26.6807
+                            <span id="curse_cad">
+                                <!-- 26.6807 -->
                             </span>
                         </div>
                         <div class="calculator_course__item">
@@ -335,8 +335,8 @@
                                 <img src="/static/source/img/calculator/emojione_flag-for-european-union.svg" alt="">
                                 EURO
                             </span>
-                            <span>
-                                35.6379
+                            <span id="curse_euro">
+                                <!-- 35.6379 -->
                             </span>
                         </div>
                     </div>
