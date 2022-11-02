@@ -20228,8 +20228,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _module_validation_index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../module/validation/index */ "../components/module/validation/index.js");
 
+ // form_send(".calculator__form", false);
 
-form_send(".calculator__form", false);
 form_send(".consultation_form", false);
 
 function form_send(wrapper, modal) {
@@ -20261,23 +20261,24 @@ function form_send(wrapper, modal) {
           }
 
           console.log('wrapper: ', wrapper);
-          console.log('іфв: ');
-
-          if (action != "" || action != undefined) {
-            loader.classList.add("active");
-            fetch(action, {
-              method: "POST",
-              body: new URLSearchParams(obj) // body: new URLSearchParams(obj).toString(),
-
-            }).then(function (data) {
-              console.log("data1: ", data);
-              accept_modal();
-              return data.json();
-            })["catch"](function (error) {
-              console.log("error: ", error);
-              bad_modal(error);
-            });
-          }
+          console.log('іфв: '); // if (action != "" || action != undefined) {
+          //     loader.classList.add("active");
+          //
+          //     fetch(action, {
+          //             method: "POST",
+          //             body: new URLSearchParams(obj),
+          //             // body: new URLSearchParams(obj).toString(),
+          //         })
+          //         .then((data) => {
+          //             console.log("data1: ", data);
+          //             accept_modal()
+          //             return data.json();
+          //         })
+          //         .catch((error) => {
+          //             console.log("error: ", error);
+          //             bad_modal(error);
+          //         });
+          // }
         } else {
           console.log("error!");
         }
@@ -20756,6 +20757,63 @@ function validation(validation_btn) {
 
 /***/ }),
 
+/***/ "../components/pages/index/calculator.js":
+/*!***********************************************!*\
+  !*** ../components/pages/index/calculator.js ***!
+  \***********************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _calculator_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./calculator.scss */ "../components/pages/index/calculator.scss");
+/* harmony import */ var _calculator_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_calculator_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _module_validation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../module/validation */ "../components/module/validation/index.js");
+
+
+var calculator_btn = document.querySelector('.calculator__btn > button');
+calculator_btn.addEventListener('click', calculate);
+
+function calculate(e) {
+  e.preventDefault();
+  var status = Object(_module_validation__WEBPACK_IMPORTED_MODULE_1__["default"])(calculator_btn);
+
+  var excise = function excise(_ref) {
+    var engine = _ref.engine,
+        year = _ref.year,
+        fuel = _ref.fuel;
+    var current_year = new Date().getFullYear();
+    var cff_engine = engine / 1000;
+    var cff_year = current_year - year > 15 ? 15 : current_year - year;
+    var rate = engine >= +fuel.dataset.lim ? +fuel.dataset.max_rate : +fuel.dataset.min_rate;
+    return rate * cff_engine * cff_year;
+  };
+
+  if (status) {
+    var price = +document.querySelector('input[name="price"]').value;
+    var currency = +document.querySelector('input[name="currency"]:checked').dataset.value;
+    var engine = +document.querySelector('input[name="engine"]').value;
+    var year = +document.querySelector('select[name="year"]').value;
+    var fuel_select = document.querySelector('select[name="fuel"]');
+    var fuel_selected_index = fuel_select.selectedIndex;
+    var fuel = fuel_select.querySelectorAll('option')[fuel_selected_index];
+    var excise_result = fuel.value === 'hybrid' ? 100 : excise({
+      engine: engine,
+      year: year,
+      fuel: fuel
+    });
+    var toll = price / currency * 10 / 100;
+    var pdv = (price / currency + excise_result + toll) * 20 / 100;
+    var result = excise_result + toll + pdv;
+    var result_currency_all = document.querySelectorAll('.result_currency');
+    result_currency_all.forEach(function (result_currency) {
+      result_currency.innerHTML = Math.round(result * result_currency.dataset.value);
+    });
+  }
+}
+
+/***/ }),
+
 /***/ "../components/pages/index/calculator.scss":
 /*!*************************************************!*\
   !*** ../components/pages/index/calculator.scss ***!
@@ -20780,10 +20838,43 @@ function validation(validation_btn) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.scss */ "../components/pages/index/index.scss");
 /* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _calculator_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./calculator.scss */ "../components/pages/index/calculator.scss");
-/* harmony import */ var _calculator_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_calculator_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _calculator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./calculator */ "../components/pages/index/calculator.js");
 
 
+fetch('https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json').then(function (response) {
+  return response.json();
+}).then(function (data) {
+  var usd = data.find(function (currency) {
+    return currency.cc === "USD";
+  });
+  var eur = data.find(function (currency) {
+    return currency.cc === "EUR";
+  });
+  var cad = data.find(function (currency) {
+    return currency.cc === "CAD";
+  });
+  var curse_usd = document.querySelector('#curse_usd');
+  var curse_euro = document.querySelector('#curse_euro');
+  var curse_cad = document.querySelector('#curse_cad');
+  curse_usd.innerHTML = usd.rate;
+  curse_euro.innerHTML = eur.rate;
+  curse_cad.innerHTML = cad.rate;
+  var ratio_usd = eur.rate / usd.rate;
+  var ratio_cad = eur.rate / cad.rate;
+  var ratio_uan = eur.rate;
+  var result_usd = document.querySelectorAll('.cff_usd');
+  var result_cad = document.querySelectorAll('.cff_cad');
+  var result_uan = document.querySelectorAll('.cff_uan');
+  result_usd.forEach(function (usd) {
+    return usd.dataset.value = ratio_usd;
+  });
+  result_cad.forEach(function (usd) {
+    return usd.dataset.value = ratio_cad;
+  });
+  result_uan.forEach(function (usd) {
+    return usd.dataset.value = ratio_uan;
+  });
+});
 
 /***/ }),
 
