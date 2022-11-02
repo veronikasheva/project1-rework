@@ -8,3 +8,5 @@ id,app_label,model
 7,project,contact
 8,s_content,site
 9,s_content,sitephone
+10,project,currency
+11,project,year

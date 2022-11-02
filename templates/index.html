@@ -174,7 +174,7 @@
         </section>
 
         <section class="calculator text_std section_bg" id="calculator">
-            <form action="/" class="calculator__form validation__block">
+            <form action="{% url 'contact' %}" class="calculator__form validation__block">
                 <hgroup class="title">
                     <h2 class="title_1">
                         Калькулятор розмитнення авто
@@ -226,15 +226,11 @@
                             <div class="input_section">
                                 <label for="">Рік випуску</label>
                                 <select name="year">
+                                    {% for year in years %}
                                     <option value="2019">
-                                        2019
+                                        {{year.name}}
                                     </option>
-                                    <option value="2018">
-                                        2018
-                                    </option>
-                                    <option value="2017">
-                                        2017
-                                    </option>
+                                    {% endfor %}
                                 </select>
                             </div>
 <!--                            <div class="input_section validation_container">-->

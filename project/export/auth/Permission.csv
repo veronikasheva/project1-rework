@@ -23,6 +23,14 @@ id,name,content_type,codename
 26,Can change Контакт,7,change_contact
 27,Can delete Контакт,7,delete_contact
 28,Can view Контакт,7,view_contact
+37,Can add currency,10,add_currency
+38,Can change currency,10,change_currency
+39,Can delete currency,10,delete_currency
+40,Can view currency,10,view_currency
+41,Can add year,11,add_year
+42,Can change year,11,change_year
+43,Can delete year,11,delete_year
+44,Can view year,11,view_year
 29,Can add Site configuration,8,add_site
 30,Can change Site configuration,8,change_site
 31,Can delete Site configuration,8,delete_site
