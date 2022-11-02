@@ -1,11 +1,10 @@
 from django.contrib import admin
 from django.contrib.auth.models import User, Group
-from .models import Contact
+from .models import Contact, Year
 from s_content.admin import AdminImageWidget
 from django.db import models
 from django.utils.html import mark_safe
 
-from django.contrib.auth.models import User, Group
 
 
 class ItemFeatureAdmin(admin.ModelAdmin):
@@ -48,3 +47,4 @@ admin.site.unregister(Group)
 admin.site.unregister(User)
 
 admin.site.register(Contact)
+admin.site.register(Year)

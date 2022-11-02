@@ -1,3 +1,4 @@
+from tabnanny import verbose
 from django.db import models
 
 from s_utils.models import AbstractTitleSlug
@@ -18,4 +19,7 @@ class Contact(models.Model):
 
     def __str__(self):
         return f'{self.name} {self.phone}'
-    
+
+
+class Year(models.Model):
+    name = models.CharField(verbose_name='Рік', max_length=128, blank=False, null=False)
