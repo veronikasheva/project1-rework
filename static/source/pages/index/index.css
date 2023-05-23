@@ -1702,13 +1702,14 @@ button.swiper-pagination-bullet {
 .address {
   display: flex;
   align-items: center; }
+  .address_phone {
+    margin-right: 20px; }
   .address a {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     color: #374140;
-    margin-right: 20px;
     white-space: nowrap;
     display: flex;
     align-items: center; }
@@ -1743,8 +1744,7 @@ button.swiper-pagination-bullet {
           margin-bottom: 15px; } }
 
 main {
-  background: linear-gradient(5.79deg, #010101 85.28%, #363A45 101.11%, #000000 101.11%);
-  margin: 0 5%; }
+  background: linear-gradient(5.79deg, #010101 85.28%, #363A45 101.11%, #000000 101.11%); }
   @media (max-width: 1000px) {
     main {
       margin: 0; } }

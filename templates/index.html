@@ -41,7 +41,7 @@
             </a>
         </nav>
         <address class="address">
-            <a href="tel:{{site.phone}}">
+            <a href="tel:{{site.phone}}" class="address_phone">
                 <img src="/static/source/img/common/Frame 1.svg" alt="phone">
                 <span class="address__phone">{{site.phone}}</span>
             </a>
@@ -227,7 +227,7 @@
                                 <label for="">Рік випуску</label>
                                 <select name="year">
                                     {% for year in years %}
-                                    <option value="2019">
+                                    <option value="{{year.name}}">
                                         {{year.name}}
                                     </option>
                                     {% endfor %}
