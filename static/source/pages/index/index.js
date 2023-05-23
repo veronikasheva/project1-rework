@@ -20781,6 +20781,7 @@ function calculate(e) {
     var engine = _ref.engine,
         year = _ref.year,
         fuel = _ref.fuel;
+    console.log(year);
     var current_year = new Date().getFullYear();
     var cff_engine = engine / 1000;
     var cff_year = current_year - year > 15 ? 15 : current_year - year;
