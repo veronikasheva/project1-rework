@@ -20261,24 +20261,23 @@ function form_send(wrapper, modal) {
           }
 
           console.log('wrapper: ', wrapper);
-          console.log('іфв: '); // if (action != "" || action != undefined) {
-          //     loader.classList.add("active");
-          //
-          //     fetch(action, {
-          //             method: "POST",
-          //             body: new URLSearchParams(obj),
-          //             // body: new URLSearchParams(obj).toString(),
-          //         })
-          //         .then((data) => {
-          //             console.log("data1: ", data);
-          //             accept_modal()
-          //             return data.json();
-          //         })
-          //         .catch((error) => {
-          //             console.log("error: ", error);
-          //             bad_modal(error);
-          //         });
-          // }
+          console.log('іфв: ');
+
+          if (action != "" || action != undefined) {
+            loader.classList.add("active");
+            fetch(action, {
+              method: "POST",
+              body: new URLSearchParams(obj) // body: new URLSearchParams(obj).toString(),
+
+            }).then(function (data) {
+              console.log("data1: ", data);
+              accept_modal();
+              return data.json();
+            })["catch"](function (error) {
+              console.log("error: ", error);
+              bad_modal(error);
+            });
+          }
         } else {
           console.log("error!");
         }
