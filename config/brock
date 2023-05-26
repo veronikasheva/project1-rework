@@ -11,7 +11,7 @@ server{
         uwsgi_pass unix:/home/jurgeon/projects/brock/src/config/brock.sock;
         include /etc/nginx/uwsgi_params;
     }
-
+}
 
 server{
     server_name www.brock.in.ua;
