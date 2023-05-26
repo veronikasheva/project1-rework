@@ -1,5 +1,5 @@
 server{
-    server_name brock.starway.agency;
+    server_name brock.in.ua;
     client_max_body_size 100M;
     location /media {
         alias /home/jurgeon/projects/brock/src/media;
@@ -11,6 +11,7 @@ server{
         uwsgi_pass unix:/home/jurgeon/projects/brock/src/config/brock.sock;
         include /etc/nginx/uwsgi_params;
     }
+<<<<<<< HEAD
 
 
     listen 443 ssl; # managed by Certbot
@@ -32,4 +33,21 @@ server{
     return 404; # managed by Certbot
 
 
+=======
+}
+
+server{
+    server_name www.brock.in.ua;
+    client_max_body_size 100M;
+    location /media {
+        alias /home/jurgeon/projects/brock/src/media;
+    }
+    location /static {
+        alias /home/jurgeon/projects/brock/src/static_root;
+    }
+    location / {
+        uwsgi_pass unix:/home/jurgeon/projects/brock/src/config/brock.sock;
+        include /etc/nginx/uwsgi_params;
+    }
+>>>>>>> 42b2142c47673de320f375f7d47002e66bfa928a
 }

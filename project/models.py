@@ -23,3 +23,8 @@ class Contact(models.Model):
 
 class Year(models.Model):
     name = models.CharField(verbose_name='Рік', max_length=128, blank=False, null=False)
+
+    class Meta:
+        ordering = ['-name']
+        verbose_name = "Рік"
+        verbose_name_plural = "Роки"
