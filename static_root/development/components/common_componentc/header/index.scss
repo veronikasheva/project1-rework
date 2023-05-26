@@ -170,6 +170,10 @@
     display: flex;
     align-items: center;
 
+    &_phone {
+        margin-right: 20px;
+    }
+
     a {
         @media (max-width: 500px) {
             margin-right: 10px;
@@ -184,7 +188,6 @@
         line-height: 21px;
         color: #374140;
 
-        margin-right: 20px;
         white-space: nowrap;
         display: flex;
         align-items: center;
