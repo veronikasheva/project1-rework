@@ -11,30 +11,7 @@ server{
         uwsgi_pass unix:/home/jurgeon/projects/brock/src/config/brock.sock;
         include /etc/nginx/uwsgi_params;
     }
-<<<<<<< HEAD
 
-
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/brock.starway.agency/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/brock.starway.agency/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-}
-
-server{
-    if ($host = brock.starway.agency) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    server_name brock.starway.agency;
-    listen 80;
-    return 404; # managed by Certbot
-
-
-=======
-}
 
 server{
     server_name www.brock.in.ua;
@@ -49,5 +26,3 @@ server{
         uwsgi_pass unix:/home/jurgeon/projects/brock/src/config/brock.sock;
         include /etc/nginx/uwsgi_params;
     }
->>>>>>> 42b2142c47673de320f375f7d47002e66bfa928a
-}

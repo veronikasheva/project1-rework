@@ -10,10 +10,7 @@ function calculate(e) {
     const status = validation(calculator_btn)
 
     const excise = ({engine, year, fuel}) => {
-<<<<<<< HEAD
-=======
         console.log(year);
->>>>>>> b0a182169e1e3d17dd6ffc53d741501b6d149889
         const current_year = new Date().getFullYear()
 
         const cff_engine = engine / 1000
