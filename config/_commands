@@ -13,5 +13,6 @@ sudo systemctl restart brock
 
 sudo systemctl daemon-reload
 
-sudo certbot --nginx -d brock.starway.agency
+sudo certbot --nginx -d www.brock.in.ua
+sudo certbot --nginx -d brock.in.ua
 sudo certbot renew --dry-run
