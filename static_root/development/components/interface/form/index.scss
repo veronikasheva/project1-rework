@@ -120,7 +120,7 @@ input::-webkit-inner-spin-button {
 }
 
 .input_section {
-    border: 1px solid #2C2C2C;
+    // border: 1px solid #2C2C2C;
     width: 30%;
     position: relative;
     margin-bottom: 30px;
@@ -131,11 +131,13 @@ input::-webkit-inner-spin-button {
         margin-top: 30px;
     }
     label {
-        z-index: 100;
-        position: absolute;
-        top: -12px;
-        left: 20px;
-        width: fit-content;
+        // z-index: 100;
+        //position: absolute;
+        // top: -12px;
+        // left: 20px;
+        // width: fit-content;
+        padding-left: 20px;
+        white-space: nowrap;
     }
     &__top {
         display: flex;
@@ -145,7 +147,7 @@ input::-webkit-inner-spin-button {
 
 input, select {
     background: none;
-    border: none;
+    border: 1px solid #2C2C2C;
     // color: #FAFAFA;
     padding: 20px;
     width: 100%;

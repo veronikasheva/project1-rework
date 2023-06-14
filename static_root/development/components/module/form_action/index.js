@@ -1,7 +1,7 @@
 import "./index.scss";
 import validation from "../../module/validation/index";
 
-form_send(".calculator__form", false);
+// form_send(".calculator__form", false);
 form_send(".consultation_form", false)
 
 function form_send(wrapper, modal) {
@@ -40,7 +40,7 @@ function form_send(wrapper, modal) {
 
                     if (action != "" || action != undefined) {
                         loader.classList.add("active");
-                        
+                    
                         fetch(action, {
                                 method: "POST",
                                 body: new URLSearchParams(obj),

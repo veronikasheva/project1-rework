@@ -14,6 +14,10 @@ $scroll_color:  #363A45;
  *  `em` units.
  */
 
+ html {
+  scroll-behavior: smooth;
+ }
+
  body {
    position: relative;
    min-height: 100vh;
