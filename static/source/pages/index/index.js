@@ -20781,10 +20781,9 @@ function calculate(e) {
     var engine = _ref.engine,
         year = _ref.year,
         fuel = _ref.fuel;
-    console.log(year);
     var current_year = new Date().getFullYear();
     var cff_engine = engine / 1000;
-    var cff_year = current_year - year > 15 ? 15 : current_year - year;
+    var cff_year = current_year - year > 15 ? 15 : current_year === year ? 1 : current_year - year - 1;
     var rate = engine >= +fuel.dataset.lim ? +fuel.dataset.max_rate : +fuel.dataset.min_rate;
     return rate * cff_engine * cff_year;
   };
@@ -20802,8 +20801,9 @@ function calculate(e) {
       year: year,
       fuel: fuel
     });
-    var toll = price / currency * 10 / 100;
-    var pdv = (price / currency + excise_result + toll) * 20 / 100;
+    console.log(excise_result);
+    var toll = price / currency * 0.1;
+    var pdv = (price / currency + excise_result + toll) * 0.2;
     var result = excise_result + toll + pdv;
     var result_currency_all = document.querySelectorAll('.result_currency');
     result_currency_all.forEach(function (result_currency) {
