@@ -87,9 +87,9 @@
 /******/ ({
 
 /***/ "../../node_modules/dom7/dom7.esm.js":
-/*!**********************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/dom7/dom7.esm.js ***!
-  \**********************************************************************/
+/*!*****************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/dom7/dom7.esm.js ***!
+  \*****************************************************************/
 /*! exports provided: default, $, add, addClass, animate, animationEnd, append, appendTo, attr, blur, change, children, click, closest, css, data, dataset, detach, each, empty, eq, filter, find, focus, focusin, focusout, hasClass, height, hide, html, index, insertAfter, insertBefore, is, keydown, keypress, keyup, mousedown, mouseenter, mouseleave, mousemove, mouseout, mouseover, mouseup, next, nextAll, off, offset, on, once, outerHeight, outerWidth, parent, parents, prepend, prependTo, prev, prevAll, prop, remove, removeAttr, removeClass, removeData, resize, scroll, scrollLeft, scrollTo, scrollTop, show, siblings, stop, styles, submit, text, toggleClass, touchend, touchmove, touchstart, transform, transition, transitionEnd, trigger, val, value, width */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1876,9 +1876,9 @@ var scroll = shortcut('scroll');
 /***/ }),
 
 /***/ "../../node_modules/ssr-window/ssr-window.esm.js":
-/*!**********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/ssr-window/ssr-window.esm.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/ssr-window/ssr-window.esm.js ***!
+  \*****************************************************************************/
 /*! exports provided: extend, getDocument, getWindow, ssrDocument, ssrWindow */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2044,9 +2044,9 @@ function getWindow() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/a11y/a11y.js":
-/*!****************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/a11y/a11y.js ***!
-  \****************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/a11y/a11y.js ***!
+  \***********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2353,9 +2353,9 @@ var A11y = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/autoplay/autoplay.js":
-/*!************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/autoplay/autoplay.js ***!
-  \************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/autoplay/autoplay.js ***!
+  \*******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2589,9 +2589,9 @@ var Autoplay = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/controller/controller.js":
-/*!****************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/controller/controller.js ***!
-  \****************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/controller/controller.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2799,9 +2799,9 @@ var Controller = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/breakpoints/getBreakpoint.js":
-/*!*************************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/breakpoints/getBreakpoint.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/breakpoints/getBreakpoint.js ***!
+  \********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2858,9 +2858,9 @@ function getBreakpoint(breakpoints, base, containerEl) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/breakpoints/index.js":
-/*!*****************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/breakpoints/index.js ***!
-  \*****************************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/breakpoints/index.js ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2878,9 +2878,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/breakpoints/setBreakpoint.js":
-/*!*************************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/breakpoints/setBreakpoint.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/breakpoints/setBreakpoint.js ***!
+  \********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2974,9 +2974,9 @@ function setBreakpoint() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/check-overflow/index.js":
-/*!********************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/check-overflow/index.js ***!
-  \********************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/check-overflow/index.js ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3012,9 +3012,9 @@ function checkOverflow() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/classes/addClasses.js":
-/*!******************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/classes/addClasses.js ***!
-  \******************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/classes/addClasses.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3073,9 +3073,9 @@ function addClasses() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/classes/index.js":
-/*!*************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/classes/index.js ***!
-  \*************************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/classes/index.js ***!
+  \********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3093,9 +3093,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/classes/removeClasses.js":
-/*!*********************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/classes/removeClasses.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/classes/removeClasses.js ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3113,9 +3113,9 @@ function removeClasses() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/core-class.js":
-/*!**********************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/core-class.js ***!
-  \**********************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/core-class.js ***!
+  \*****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3793,9 +3793,9 @@ Swiper.use([_modules_resize_resize__WEBPACK_IMPORTED_MODULE_6__["default"], _mod
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/defaults.js":
-/*!********************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/defaults.js ***!
-  \********************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/defaults.js ***!
+  \***************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3936,9 +3936,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/events-emitter.js":
-/*!**************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/events-emitter.js ***!
-  \**************************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/events-emitter.js ***!
+  \*********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -4058,9 +4058,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/events/index.js":
-/*!************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/events/index.js ***!
-  \************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/events/index.js ***!
+  \*******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -4213,9 +4213,9 @@ function detachEvents() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/events/onClick.js":
-/*!**************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/events/onClick.js ***!
-  \**************************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/events/onClick.js ***!
+  \*********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -4239,9 +4239,9 @@ function onClick(e) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/events/onResize.js":
-/*!***************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/events/onResize.js ***!
-  \***************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/events/onResize.js ***!
+  \**********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -4291,9 +4291,9 @@ function onResize() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/events/onScroll.js":
-/*!***************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/events/onScroll.js ***!
-  \***************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/events/onScroll.js ***!
+  \**********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -4341,9 +4341,9 @@ function onScroll() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/events/onTouchEnd.js":
-/*!*****************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/events/onTouchEnd.js ***!
-  \*****************************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/events/onTouchEnd.js ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -4679,9 +4679,9 @@ function onTouchEnd(event) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/events/onTouchMove.js":
-/*!******************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/events/onTouchMove.js ***!
-  \******************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/events/onTouchMove.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -4926,9 +4926,9 @@ function onTouchMove(event) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/events/onTouchStart.js":
-/*!*******************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/events/onTouchStart.js ***!
-  \*******************************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/events/onTouchStart.js ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5054,9 +5054,9 @@ function onTouchStart(event) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/grab-cursor/index.js":
-/*!*****************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/grab-cursor/index.js ***!
-  \*****************************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/grab-cursor/index.js ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5074,9 +5074,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/grab-cursor/setGrabCursor.js":
-/*!*************************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/grab-cursor/setGrabCursor.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/grab-cursor/setGrabCursor.js ***!
+  \********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5096,9 +5096,9 @@ function setGrabCursor(moving) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/grab-cursor/unsetGrabCursor.js":
-/*!***************************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/grab-cursor/unsetGrabCursor.js ***!
-  \***************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/grab-cursor/unsetGrabCursor.js ***!
+  \**********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5118,9 +5118,9 @@ function unsetGrabCursor() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/images/index.js":
-/*!************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/images/index.js ***!
-  \************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/images/index.js ***!
+  \*******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5138,9 +5138,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/images/loadImage.js":
-/*!****************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/images/loadImage.js ***!
-  \****************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/images/loadImage.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5190,9 +5190,9 @@ function loadImage(imageEl, src, srcset, sizes, checkForComplete, callback) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/images/preloadImages.js":
-/*!********************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/images/preloadImages.js ***!
-  \********************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/images/preloadImages.js ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5222,9 +5222,9 @@ function preloadImages() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/loop/index.js":
-/*!**********************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/loop/index.js ***!
-  \**********************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/loop/index.js ***!
+  \*****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5245,9 +5245,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/loop/loopCreate.js":
-/*!***************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/loop/loopCreate.js ***!
-  \***************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/loop/loopCreate.js ***!
+  \**********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5316,9 +5316,9 @@ function loopCreate() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/loop/loopDestroy.js":
-/*!****************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/loop/loopDestroy.js ***!
-  \****************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/loop/loopDestroy.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5337,9 +5337,9 @@ function loopDestroy() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/loop/loopFix.js":
-/*!************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/loop/loopFix.js ***!
-  \************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/loop/loopFix.js ***!
+  \*******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5390,9 +5390,9 @@ function loopFix() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/manipulation/addSlide.js":
-/*!*********************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/manipulation/addSlide.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/manipulation/addSlide.js ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5465,9 +5465,9 @@ function addSlide(index, slides) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/manipulation/appendSlide.js":
-/*!************************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/manipulation/appendSlide.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/manipulation/appendSlide.js ***!
+  \*******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5503,9 +5503,9 @@ function appendSlide(slides) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/manipulation/index.js":
-/*!******************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/manipulation/index.js ***!
-  \******************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/manipulation/index.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5532,9 +5532,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/manipulation/prependSlide.js":
-/*!*************************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/manipulation/prependSlide.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/manipulation/prependSlide.js ***!
+  \********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5577,9 +5577,9 @@ function prependSlide(slides) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/manipulation/removeAllSlides.js":
-/*!****************************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/manipulation/removeAllSlides.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/manipulation/removeAllSlides.js ***!
+  \***********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5600,9 +5600,9 @@ function removeAllSlides() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/manipulation/removeSlide.js":
-/*!************************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/manipulation/removeSlide.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/manipulation/removeSlide.js ***!
+  \*******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5658,9 +5658,9 @@ function removeSlide(slidesIndexes) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/modular.js":
-/*!*******************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/modular.js ***!
-  \*******************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/modular.js ***!
+  \**************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5708,9 +5708,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/slide/index.js":
-/*!***********************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/slide/index.js ***!
-  \***********************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/slide/index.js ***!
+  \******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5743,9 +5743,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/slide/slideNext.js":
-/*!***************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/slide/slideNext.js ***!
-  \***************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/slide/slideNext.js ***!
+  \**********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5782,9 +5782,9 @@ function slideNext(speed, runCallbacks, internal) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/slide/slidePrev.js":
-/*!***************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/slide/slidePrev.js ***!
-  \***************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/slide/slidePrev.js ***!
+  \**********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5849,9 +5849,9 @@ function slidePrev(speed, runCallbacks, internal) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/slide/slideReset.js":
-/*!****************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/slide/slideReset.js ***!
-  \****************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/slide/slideReset.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5875,9 +5875,9 @@ function slideReset(speed, runCallbacks, internal) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/slide/slideTo.js":
-/*!*************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/slide/slideTo.js ***!
-  \*************************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/slide/slideTo.js ***!
+  \********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6071,9 +6071,9 @@ function slideTo(index, speed, runCallbacks, internal, initial) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/slide/slideToClickedSlide.js":
-/*!*************************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/slide/slideToClickedSlide.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/slide/slideToClickedSlide.js ***!
+  \********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6123,9 +6123,9 @@ function slideToClickedSlide() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/slide/slideToClosest.js":
-/*!********************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/slide/slideToClosest.js ***!
-  \********************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/slide/slideToClosest.js ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6180,9 +6180,9 @@ function slideToClosest(speed, runCallbacks, internal, threshold) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/slide/slideToLoop.js":
-/*!*****************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/slide/slideToLoop.js ***!
-  \*****************************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/slide/slideToLoop.js ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6215,9 +6215,9 @@ function slideToLoop(index, speed, runCallbacks, internal) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/transition/index.js":
-/*!****************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/transition/index.js ***!
-  \****************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/transition/index.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6238,9 +6238,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/transition/setTransition.js":
-/*!************************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/transition/setTransition.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/transition/setTransition.js ***!
+  \*******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6260,9 +6260,9 @@ function setTransition(duration, byController) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/transition/transitionEnd.js":
-/*!************************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/transition/transitionEnd.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/transition/transitionEnd.js ***!
+  \*******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6308,9 +6308,9 @@ function transitionEnd(runCallbacks, direction) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/transition/transitionStart.js":
-/*!**************************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/transition/transitionStart.js ***!
-  \**************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/transition/transitionStart.js ***!
+  \*********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6359,9 +6359,9 @@ function transitionStart(runCallbacks, direction) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/translate/getTranslate.js":
-/*!**********************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/translate/getTranslate.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/translate/getTranslate.js ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6397,9 +6397,9 @@ function getSwiperTranslate(axis) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/translate/index.js":
-/*!***************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/translate/index.js ***!
-  \***************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/translate/index.js ***!
+  \**********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6426,9 +6426,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/translate/maxTranslate.js":
-/*!**********************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/translate/maxTranslate.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/translate/maxTranslate.js ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6442,9 +6442,9 @@ function maxTranslate() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/translate/minTranslate.js":
-/*!**********************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/translate/minTranslate.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/translate/minTranslate.js ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6458,9 +6458,9 @@ function minTranslate() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/translate/setTranslate.js":
-/*!**********************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/translate/setTranslate.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/translate/setTranslate.js ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6517,9 +6517,9 @@ function setTranslate(translate, byController) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/translate/translateTo.js":
-/*!*********************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/translate/translateTo.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/translate/translateTo.js ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6623,9 +6623,9 @@ function translateTo(translate, speed, runCallbacks, translateBounds, internal) 
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/update/index.js":
-/*!************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/update/index.js ***!
-  \************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/update/index.js ***!
+  \*******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6664,9 +6664,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/update/updateActiveIndex.js":
-/*!************************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/update/updateActiveIndex.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/update/updateActiveIndex.js ***!
+  \*******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6747,9 +6747,9 @@ function updateActiveIndex(newActiveIndex) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/update/updateAutoHeight.js":
-/*!***********************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/update/updateAutoHeight.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/update/updateAutoHeight.js ***!
+  \******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6811,9 +6811,9 @@ function updateAutoHeight(speed) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/update/updateClickedSlide.js":
-/*!*************************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/update/updateClickedSlide.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/update/updateClickedSlide.js ***!
+  \********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6861,9 +6861,9 @@ function updateClickedSlide(e) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/update/updateProgress.js":
-/*!*********************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/update/updateProgress.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/update/updateProgress.js ***!
+  \****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6924,9 +6924,9 @@ function updateProgress(translate) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/update/updateSize.js":
-/*!*****************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/update/updateSize.js ***!
-  \*****************************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/update/updateSize.js ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6972,9 +6972,9 @@ function updateSize() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/update/updateSlides.js":
-/*!*******************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/update/updateSlides.js ***!
-  \*******************************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/update/updateSlides.js ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7334,9 +7334,9 @@ function updateSlides() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/update/updateSlidesClasses.js":
-/*!**************************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/update/updateSlidesClasses.js ***!
-  \**************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/update/updateSlidesClasses.js ***!
+  \*********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7409,9 +7409,9 @@ function updateSlidesClasses() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/update/updateSlidesOffset.js":
-/*!*************************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/update/updateSlidesOffset.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/update/updateSlidesOffset.js ***!
+  \********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7430,9 +7430,9 @@ function updateSlidesOffset() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/core/update/updateSlidesProgress.js":
-/*!***************************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/core/update/updateSlidesProgress.js ***!
-  \***************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/core/update/updateSlidesProgress.js ***!
+  \**********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7484,9 +7484,9 @@ function updateSlidesProgress(translate) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/effect-coverflow/effect-coverflow.js":
-/*!****************************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/effect-coverflow/effect-coverflow.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/effect-coverflow/effect-coverflow.js ***!
+  \***********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7606,9 +7606,9 @@ var Coverflow = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/effect-cube/effect-cube.js":
-/*!******************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/effect-cube/effect-cube.js ***!
-  \******************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/effect-cube/effect-cube.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7814,9 +7814,9 @@ var Cube = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/effect-fade/effect-fade.js":
-/*!******************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/effect-fade/effect-fade.js ***!
-  \******************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/effect-fade/effect-fade.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7913,9 +7913,9 @@ var Fade = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/effect-flip/effect-flip.js":
-/*!******************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/effect-flip/effect-flip.js ***!
-  \******************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/effect-flip/effect-flip.js ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8050,9 +8050,9 @@ var Flip = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/hash-navigation/hash-navigation.js":
-/*!**************************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/hash-navigation/hash-navigation.js ***!
-  \**************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/hash-navigation/hash-navigation.js ***!
+  \*********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8175,9 +8175,9 @@ var HashNavigation = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/history/history.js":
-/*!**********************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/history/history.js ***!
-  \**********************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/history/history.js ***!
+  \*****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8348,9 +8348,9 @@ var History = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/keyboard/keyboard.js":
-/*!************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/keyboard/keyboard.js ***!
-  \************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/keyboard/keyboard.js ***!
+  \*******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8497,9 +8497,9 @@ var Keyboard = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/lazy/lazy.js":
-/*!****************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/lazy/lazy.js ***!
-  \****************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/lazy/lazy.js ***!
+  \***********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8786,9 +8786,9 @@ var Lazy = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/mousewheel/mousewheel.js":
-/*!****************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/mousewheel/mousewheel.js ***!
-  \****************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/mousewheel/mousewheel.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9278,9 +9278,9 @@ var Mousewheel = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/navigation/navigation.js":
-/*!****************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/navigation/navigation.js ***!
-  \****************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/navigation/navigation.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9489,9 +9489,9 @@ var Navigation = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/pagination/pagination.js":
-/*!****************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/pagination/pagination.js ***!
-  \****************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/pagination/pagination.js ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9883,9 +9883,9 @@ var Pagination = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/parallax/parallax.js":
-/*!************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/parallax/parallax.js ***!
-  \************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/parallax/parallax.js ***!
+  \*******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10018,9 +10018,9 @@ var Parallax = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/scrollbar/scrollbar.js":
-/*!**************************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/scrollbar/scrollbar.js ***!
-  \**************************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/scrollbar/scrollbar.js ***!
+  \*********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10397,9 +10397,9 @@ var Scrollbar = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/thumbs/thumbs.js":
-/*!********************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/thumbs/thumbs.js ***!
-  \********************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/thumbs/thumbs.js ***!
+  \***************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10624,9 +10624,9 @@ var Thumbs = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/virtual/virtual.js":
-/*!**********************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/virtual/virtual.js ***!
-  \**********************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/virtual/virtual.js ***!
+  \*****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10908,9 +10908,9 @@ var Virtual = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/components/zoom/zoom.js":
-/*!****************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/components/zoom/zoom.js ***!
-  \****************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/components/zoom/zoom.js ***!
+  \***********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11522,9 +11522,9 @@ var Zoom = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/modules/observer/observer.js":
-/*!*********************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/modules/observer/observer.js ***!
-  \*********************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/modules/observer/observer.js ***!
+  \****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11628,9 +11628,9 @@ var Observer = {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/modules/resize/resize.js":
-/*!*****************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/modules/resize/resize.js ***!
-  \*****************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/modules/resize/resize.js ***!
+  \************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11719,9 +11719,9 @@ var supportsResizeObserver = function supportsResizeObserver() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/utils/dom.js":
-/*!*****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/utils/dom.js ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/utils/dom.js ***!
+  \************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11778,9 +11778,9 @@ Object.keys(Methods).forEach(function (methodName) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/utils/get-browser.js":
-/*!*************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/utils/get-browser.js ***!
-  \*************************************************************************************/
+/*!********************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/utils/get-browser.js ***!
+  \********************************************************************************/
 /*! exports provided: getBrowser */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11819,9 +11819,9 @@ function getBrowser() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/utils/get-device.js":
-/*!************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/utils/get-device.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/utils/get-device.js ***!
+  \*******************************************************************************/
 /*! exports provided: getDevice */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11896,9 +11896,9 @@ function getDevice(overrides) {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/utils/get-support.js":
-/*!*************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/utils/get-support.js ***!
-  \*************************************************************************************/
+/*!********************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/utils/get-support.js ***!
+  \********************************************************************************/
 /*! exports provided: getSupport */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11953,9 +11953,9 @@ function getSupport() {
 /***/ }),
 
 /***/ "../../node_modules/swiper/esm/utils/utils.js":
-/*!*******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/esm/utils/utils.js ***!
-  \*******************************************************************************/
+/*!**************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/esm/utils/utils.js ***!
+  \**************************************************************************/
 /*! exports provided: deleteProps, nextTick, now, getTranslate, isObject, extend, bindModuleMethods, getComputedStyle, classesToSelector, createElementIfNotDefined */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -12165,9 +12165,9 @@ function createElementIfNotDefined($container, params, createElements, checkProp
 /***/ }),
 
 /***/ "../../node_modules/swiper/swiper-bundle.css":
-/*!******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/swiper-bundle.css ***!
-  \******************************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/swiper-bundle.css ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12178,9 +12178,9 @@ function createElementIfNotDefined($container, params, createElements, checkProp
 /***/ }),
 
 /***/ "../../node_modules/swiper/swiper.esm.js":
-/*!**************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/swiper/swiper.esm.js ***!
-  \**************************************************************************/
+/*!*********************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/swiper/swiper.esm.js ***!
+  \*********************************************************************/
 /*! exports provided: Swiper, default, Virtual, Keyboard, Mousewheel, Navigation, Pagination, Scrollbar, Parallax, Zoom, Lazy, Controller, A11y, History, HashNavigation, Autoplay, EffectFade, EffectCube, EffectFlip, EffectCoverflow, Thumbs */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -12284,9 +12284,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/validator/index.js":
-/*!************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/index.js ***!
-  \************************************************************************/
+/*!*******************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/index.js ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12604,9 +12604,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/alpha.js":
-/*!****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/alpha.js ***!
-  \****************************************************************************/
+/*!***********************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/alpha.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12752,9 +12752,9 @@ alpha['fa-AF'] = alpha.fa;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/blacklist.js":
-/*!********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/blacklist.js ***!
-  \********************************************************************************/
+/*!***************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/blacklist.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12781,9 +12781,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/contains.js":
-/*!*******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/contains.js ***!
-  \*******************************************************************************/
+/*!**************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/contains.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12825,9 +12825,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/equals.js":
-/*!*****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/equals.js ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/equals.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12854,9 +12854,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/escape.js":
-/*!*****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/escape.js ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/escape.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12883,9 +12883,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isAfter.js":
-/*!******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isAfter.js ***!
-  \******************************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isAfter.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12917,9 +12917,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isAlpha.js":
-/*!******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isAlpha.js ***!
-  \******************************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isAlpha.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12968,9 +12968,9 @@ exports.locales = locales;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isAlphanumeric.js":
-/*!*************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isAlphanumeric.js ***!
-  \*************************************************************************************/
+/*!********************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isAlphanumeric.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13019,9 +13019,9 @@ exports.locales = locales;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isAscii.js":
-/*!******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isAscii.js ***!
-  \******************************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isAscii.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13052,9 +13052,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isBIC.js":
-/*!****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isBIC.js ***!
-  \****************************************************************************/
+/*!***********************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isBIC.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13092,9 +13092,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isBase32.js":
-/*!*******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isBase32.js ***!
-  \*******************************************************************************/
+/*!**************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isBase32.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13129,9 +13129,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isBase58.js":
-/*!*******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isBase58.js ***!
-  \*******************************************************************************/
+/*!**************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isBase58.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13166,9 +13166,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isBase64.js":
-/*!*******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isBase64.js ***!
-  \*******************************************************************************/
+/*!**************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isBase64.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13215,9 +13215,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isBefore.js":
-/*!*******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isBefore.js ***!
-  \*******************************************************************************/
+/*!**************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isBefore.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13249,9 +13249,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isBoolean.js":
-/*!********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isBoolean.js ***!
-  \********************************************************************************/
+/*!***************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isBoolean.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13290,9 +13290,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isBtcAddress.js":
-/*!***********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isBtcAddress.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isBtcAddress.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13328,9 +13328,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isByteLength.js":
-/*!***********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isByteLength.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isByteLength.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13373,9 +13373,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isCreditCard.js":
-/*!***********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isCreditCard.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isCreditCard.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13436,9 +13436,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isCurrency.js":
-/*!*********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isCurrency.js ***!
-  \*********************************************************************************/
+/*!****************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isCurrency.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13538,9 +13538,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isDataURI.js":
-/*!********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isDataURI.js ***!
-  \********************************************************************************/
+/*!***************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isDataURI.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13602,9 +13602,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isDate.js":
-/*!*****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isDate.js ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isDate.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13712,9 +13712,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isDecimal.js":
-/*!********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isDecimal.js ***!
-  \********************************************************************************/
+/*!***************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isDecimal.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13765,9 +13765,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isDivisibleBy.js":
-/*!************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isDivisibleBy.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isDivisibleBy.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13796,9 +13796,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isEAN.js":
-/*!****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isEAN.js ***!
-  \****************************************************************************/
+/*!***********************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isEAN.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13892,9 +13892,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isEmail.js":
-/*!******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isEmail.js ***!
-  \******************************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isEmail.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14100,9 +14100,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isEmpty.js":
-/*!******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isEmpty.js ***!
-  \******************************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isEmpty.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14136,9 +14136,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isEthereumAddress.js":
-/*!****************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isEthereumAddress.js ***!
-  \****************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isEthereumAddress.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14167,9 +14167,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isFQDN.js":
-/*!*****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isFQDN.js ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isFQDN.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14267,9 +14267,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isFloat.js":
-/*!******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isFloat.js ***!
-  \******************************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isFloat.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14307,9 +14307,9 @@ exports.locales = locales;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isFullWidth.js":
-/*!**********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isFullWidth.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isFullWidth.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14337,9 +14337,9 @@ function isFullWidth(str) {
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isHSL.js":
-/*!****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isHSL.js ***!
-  \****************************************************************************/
+/*!***********************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isHSL.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14376,9 +14376,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isHalfWidth.js":
-/*!**********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isHalfWidth.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isHalfWidth.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14406,9 +14406,9 @@ function isHalfWidth(str) {
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isHash.js":
-/*!*****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isHash.js ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isHash.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14452,9 +14452,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isHexColor.js":
-/*!*********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isHexColor.js ***!
-  \*********************************************************************************/
+/*!****************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isHexColor.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14483,9 +14483,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isHexadecimal.js":
-/*!************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isHexadecimal.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isHexadecimal.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14514,9 +14514,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isIBAN.js":
-/*!*****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isIBAN.js ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isIBAN.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14675,9 +14675,9 @@ exports.locales = locales;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isIMEI.js":
-/*!*****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isIMEI.js ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isIMEI.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14747,9 +14747,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isIP.js":
-/*!***************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isIP.js ***!
-  \***************************************************************************/
+/*!**********************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isIP.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14833,9 +14833,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isIPRange.js":
-/*!********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isIPRange.js ***!
-  \********************************************************************************/
+/*!***************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isIPRange.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14906,9 +14906,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isISBN.js":
-/*!*****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isISBN.js ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isISBN.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14982,9 +14982,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isISIN.js":
-/*!*****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isISIN.js ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isISIN.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15066,9 +15066,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isISO31661Alpha2.js":
-/*!***************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isISO31661Alpha2.js ***!
-  \***************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isISO31661Alpha2.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15099,9 +15099,9 @@ exports.CountryCodes = CountryCodes;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isISO31661Alpha3.js":
-/*!***************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isISO31661Alpha3.js ***!
-  \***************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isISO31661Alpha3.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15131,9 +15131,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isISO4217.js":
-/*!********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isISO4217.js ***!
-  \********************************************************************************/
+/*!***************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isISO4217.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15164,9 +15164,9 @@ exports.CurrencyCodes = CurrencyCodes;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isISO8601.js":
-/*!********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isISO8601.js ***!
-  \********************************************************************************/
+/*!***************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isISO8601.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15234,9 +15234,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isISRC.js":
-/*!*****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isISRC.js ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isISRC.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15266,9 +15266,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isISSN.js":
-/*!*****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isISSN.js ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isISSN.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15314,9 +15314,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isIdentityCard.js":
-/*!*************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isIdentityCard.js ***!
-  \*************************************************************************************/
+/*!********************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isIdentityCard.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15709,9 +15709,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isIn.js":
-/*!***************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isIn.js ***!
-  \***************************************************************************/
+/*!**********************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isIn.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15762,9 +15762,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isInt.js":
-/*!****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isInt.js ***!
-  \****************************************************************************/
+/*!***********************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isInt.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15803,9 +15803,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isJSON.js":
-/*!*****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isJSON.js ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isJSON.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15855,9 +15855,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isJWT.js":
-/*!****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isJWT.js ***!
-  \****************************************************************************/
+/*!***********************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isJWT.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15897,9 +15897,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isLatLong.js":
-/*!********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isLatLong.js ***!
-  \********************************************************************************/
+/*!***************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isLatLong.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15945,9 +15945,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isLength.js":
-/*!*******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isLength.js ***!
-  \*******************************************************************************/
+/*!**************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isLength.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15991,9 +15991,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isLicensePlate.js":
-/*!*************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isLicensePlate.js ***!
-  \*************************************************************************************/
+/*!********************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isLicensePlate.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16060,9 +16060,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isLocale.js":
-/*!*******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isLocale.js ***!
-  \*******************************************************************************/
+/*!**************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isLocale.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16096,9 +16096,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isLowercase.js":
-/*!**********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isLowercase.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isLowercase.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16125,9 +16125,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isMACAddress.js":
-/*!***********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isMACAddress.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isMACAddress.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16166,9 +16166,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isMD5.js":
-/*!****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isMD5.js ***!
-  \****************************************************************************/
+/*!***********************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isMD5.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16197,9 +16197,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isMagnetURI.js":
-/*!**********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isMagnetURI.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isMagnetURI.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16228,9 +16228,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isMimeType.js":
-/*!*********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isMimeType.js ***!
-  \*********************************************************************************/
+/*!****************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isMimeType.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16290,9 +16290,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isMobilePhone.js":
-/*!************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isMobilePhone.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isMobilePhone.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16501,9 +16501,9 @@ exports.locales = locales;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isMongoId.js":
-/*!********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isMongoId.js ***!
-  \********************************************************************************/
+/*!***************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isMongoId.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16532,9 +16532,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isMultibyte.js":
-/*!**********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isMultibyte.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isMultibyte.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16565,9 +16565,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isNumeric.js":
-/*!********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isNumeric.js ***!
-  \********************************************************************************/
+/*!***************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isNumeric.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16603,9 +16603,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isOctal.js":
-/*!******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isOctal.js ***!
-  \******************************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isOctal.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16634,9 +16634,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isPassportNumber.js":
-/*!***************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isPassportNumber.js ***!
-  \***************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isPassportNumber.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16783,9 +16783,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isPort.js":
-/*!*****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isPort.js ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isPort.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16814,9 +16814,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isPostalCode.js":
-/*!***********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isPostalCode.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isPostalCode.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16934,9 +16934,9 @@ function isPostalCode(str, locale) {
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isRFC3339.js":
-/*!********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isRFC3339.js ***!
-  \********************************************************************************/
+/*!***************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isRFC3339.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16978,9 +16978,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isRgbColor.js":
-/*!*********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isRgbColor.js ***!
-  \*********************************************************************************/
+/*!****************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isRgbColor.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17018,9 +17018,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isSemVer.js":
-/*!*******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isSemVer.js ***!
-  \*******************************************************************************/
+/*!**************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isSemVer.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17057,9 +17057,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isSlug.js":
-/*!*****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isSlug.js ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isSlug.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17088,9 +17088,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isStrongPassword.js":
-/*!***************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isStrongPassword.js ***!
-  \***************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isStrongPassword.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17214,9 +17214,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isSurrogatePair.js":
-/*!**************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isSurrogatePair.js ***!
-  \**************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isSurrogatePair.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17245,9 +17245,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isTaxID.js":
-/*!******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isTaxID.js ***!
-  \******************************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isTaxID.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18784,9 +18784,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isURL.js":
-/*!****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isURL.js ***!
-  \****************************************************************************/
+/*!***********************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isURL.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19003,9 +19003,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isUUID.js":
-/*!*****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isUUID.js ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isUUID.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19042,9 +19042,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isUppercase.js":
-/*!**********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isUppercase.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isUppercase.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19071,9 +19071,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isVAT.js":
-/*!****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isVAT.js ***!
-  \****************************************************************************/
+/*!***********************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isVAT.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19111,9 +19111,9 @@ function isVAT(str, countryCode) {
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isVariableWidth.js":
-/*!**************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isVariableWidth.js ***!
-  \**************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isVariableWidth.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19144,9 +19144,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/isWhitelisted.js":
-/*!************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/isWhitelisted.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/isWhitelisted.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19180,9 +19180,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/ltrim.js":
-/*!****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/ltrim.js ***!
-  \****************************************************************************/
+/*!***********************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/ltrim.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19211,9 +19211,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/matches.js":
-/*!******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/matches.js ***!
-  \******************************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/matches.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19245,9 +19245,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/normalizeEmail.js":
-/*!*************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/normalizeEmail.js ***!
-  \*************************************************************************************/
+/*!********************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/normalizeEmail.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19407,9 +19407,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/rtrim.js":
-/*!****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/rtrim.js ***!
-  \****************************************************************************/
+/*!***********************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/rtrim.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19450,9 +19450,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/stripLow.js":
-/*!*******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/stripLow.js ***!
-  \*******************************************************************************/
+/*!**************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/stripLow.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19482,9 +19482,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/toBoolean.js":
-/*!********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/toBoolean.js ***!
-  \********************************************************************************/
+/*!***************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/toBoolean.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19516,9 +19516,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/toDate.js":
-/*!*****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/toDate.js ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/toDate.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19546,9 +19546,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/toFloat.js":
-/*!******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/toFloat.js ***!
-  \******************************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/toFloat.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19575,9 +19575,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/toInt.js":
-/*!****************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/toInt.js ***!
-  \****************************************************************************/
+/*!***********************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/toInt.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19604,9 +19604,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/trim.js":
-/*!***************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/trim.js ***!
-  \***************************************************************************/
+/*!**********************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/trim.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19634,9 +19634,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/unescape.js":
-/*!*******************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/unescape.js ***!
-  \*******************************************************************************/
+/*!**************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/unescape.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19665,9 +19665,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/util/algorithms.js":
-/*!**************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/util/algorithms.js ***!
-  \**************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/util/algorithms.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19777,9 +19777,9 @@ function verhoeffCheck(str) {
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/util/assertString.js":
-/*!****************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/util/assertString.js ***!
-  \****************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/util/assertString.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19810,9 +19810,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/util/includes.js":
-/*!************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/util/includes.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/util/includes.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19838,9 +19838,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/util/merge.js":
-/*!*********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/util/merge.js ***!
-  \*********************************************************************************/
+/*!****************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/util/merge.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19871,9 +19871,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/util/multilineRegex.js":
-/*!******************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/util/multilineRegex.js ***!
-  \******************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/util/multilineRegex.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19904,9 +19904,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/util/toString.js":
-/*!************************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/util/toString.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/util/toString.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19940,9 +19940,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../node_modules/validator/lib/whitelist.js":
-/*!********************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/node_modules/validator/lib/whitelist.js ***!
-  \********************************************************************************/
+/*!***************************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/node_modules/validator/lib/whitelist.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19969,9 +19969,9 @@ module.exports.default = exports.default;
 /***/ }),
 
 /***/ "../../source/lib/custom_mask/index.js":
-/*!************************************************************************!*\
-  !*** F:/Artem.js/starway/brock/static/source/lib/custom_mask/index.js ***!
-  \************************************************************************/
+/*!*******************************************************************!*\
+  !*** D:/WEB/StarWay/brock/static/source/lib/custom_mask/index.js ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -20770,23 +20770,40 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _module_validation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../module/validation */ "../components/module/validation/index.js");
 
 
-var calculator_btn = document.querySelector('.calculator__btn > button');
-calculator_btn.addEventListener('click', calculate);
+var calculator_btn = document.querySelector(".calculator__btn > button");
+var category = document.querySelector('select[name="category"]');
+var category_value = document.querySelector('select[name="category"]').value;
+calculator_btn.addEventListener("click", calculate);
+category.addEventListener("change", function () {
+  category_value = document.querySelector('select[name="category"]').value;
+});
 
 function calculate(e) {
   e.preventDefault();
   var status = Object(_module_validation__WEBPACK_IMPORTED_MODULE_1__["default"])(calculator_btn);
+  var current_year = new Date().getFullYear();
 
   var excise = function excise(_ref) {
     var engine = _ref.engine,
         year = _ref.year,
         fuel = _ref.fuel;
-    console.log(year);
-    var current_year = new Date().getFullYear();
+
+    if (fuel.value === "hybrid") {
+      return 100;
+    }
+
     var cff_engine = engine / 1000;
-    var cff_year = current_year - year > 15 ? 15 : current_year - year;
+    var cff_year = current_year - year > 15 ? 15 : current_year === year ? 1 : current_year - year - 1;
     var rate = engine >= +fuel.dataset.lim ? +fuel.dataset.max_rate : +fuel.dataset.min_rate;
     return rate * cff_engine * cff_year;
+  };
+
+  var excise_trucks = function excise_trucks(_ref2) {
+    var engine = _ref2.engine,
+        year = _ref2.year;
+    var year_count = current_year - year;
+    var cff = year_count === 0 ? 0.01 : year_count < 5 ? 0.02 : year_count < 8 ? 0.8 : 1;
+    return engine * cff;
   };
 
   if (status) {
@@ -20796,16 +20813,19 @@ function calculate(e) {
     var year = +document.querySelector('select[name="year"]').value;
     var fuel_select = document.querySelector('select[name="fuel"]');
     var fuel_selected_index = fuel_select.selectedIndex;
-    var fuel = fuel_select.querySelectorAll('option')[fuel_selected_index];
-    var excise_result = fuel.value === 'hybrid' ? 100 : excise({
+    var fuel = fuel_select.querySelectorAll("option")[fuel_selected_index];
+    var excise_result = category_value === "trucks" ? excise_trucks({
+      engine: engine,
+      year: year
+    }) : excise({
       engine: engine,
       year: year,
       fuel: fuel
     });
-    var toll = price / currency * 10 / 100;
-    var pdv = (price / currency + excise_result + toll) * 20 / 100;
+    var toll = price / currency * 0.1;
+    var pdv = (price / currency + excise_result + toll) * 0.2;
     var result = excise_result + toll + pdv;
-    var result_currency_all = document.querySelectorAll('.result_currency');
+    var result_currency_all = document.querySelectorAll(".result_currency");
     result_currency_all.forEach(function (result_currency) {
       result_currency.innerHTML = Math.round(result * result_currency.dataset.value);
     });
