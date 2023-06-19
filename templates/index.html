@@ -1,144 +1,161 @@
 <!DOCTYPE html>
 <html lang="uk">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{site.meta_title}}</title>
     <meta content="{{site.meta_descr}}" name="description" />
     <meta content="{{site.meta_key}}" name="keywords" />
-    <link rel="stylesheet" href="/static/source/pages/index/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/source/pages/index/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap"
+      rel="stylesheet"
+    />
     <link href="{{site.image_url}}" rel="icon" type="png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="/media/logo.jpg" />
-    <meta property="og:image" content="/media/logo.jpg">
-    <meta property="og:image:width" content="600">
-    <meta property="og:image:height" content="350">
-</head>
+    <meta property="og:image" content="/media/logo.jpg" />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="350" />
+  </head>
 
-<body>
-
+  <body>
     <header class="header">
-        <a href="{% url 'index' %}" class="header__logo">
-            <img src="/static/source/img/common/logo 1.svg" alt="logo">
+      <a href="{% url 'index' %}" class="header__logo">
+        <img src="/static/source/img/common/logo 1.svg" alt="logo" />
+      </a>
+      <nav class="nav">
+        <a href="#calculator" class="nav__item"> калькулятор розмитнення </a>
+        <a href="#work" class="nav__item"> етапи роботи </a>
+        <a href="#about" class="nav__item"> Про нас </a>
+        <a href="#contacts" class="nav__item"> Контакти </a>
+      </nav>
+      <address class="address">
+        <a href="tel:{{site.phone}}" class="address_phone">
+          <img src="/static/source/img/common/Frame 1.svg" alt="phone" />
+          <span class="address__phone">{{site.phone}}</span>
         </a>
-        <nav class="nav">
-            <a href="#calculator" class="nav__item">
-                калькулятор розмитнення
-            </a>
-            <a href="#work" class="nav__item">
-                етапи роботи
-            </a>
-            <a href="#about" class="nav__item">
-                Про нас
-            </a>
-            <a href="#contacts" class="nav__item">
-                Контакти
-            </a>
-        </nav>
-        <address class="address">
-            <a href="tel:{{site.phone}}" class="address_phone">
-                <img src="/static/source/img/common/Frame 1.svg" alt="phone">
-                <span class="address__phone">{{site.phone}}</span>
-            </a>
-            <a href="{{site.instagram}}">
-                <img src="/static/source/img/common/Frame 14.svg" alt="">
-            </a>
-            <a href="{{site.facebook}}">
-                <img src="/static/source/img/common/Frame 15.svg" alt="">
-            </a>
-        </address>
-        <div class="header_hamburger" id="hamburger">
-            <div class="header_line header_line_1">
-            </div>
-            <div class="header_line header_line_2">
-            </div>
-            <div class="header_line header_line_3">
-            </div>
+        <a href="{{site.instagram}}">
+          <img src="/static/source/img/common/Frame 14.svg" alt="" />
+        </a>
+        <a href="{{site.facebook}}">
+          <img src="/static/source/img/common/Frame 15.svg" alt="" />
+        </a>
+      </address>
+      <div class="header_hamburger" id="hamburger">
+        <div class="header_line header_line_1"></div>
+        <div class="header_line header_line_2"></div>
+        <div class="header_line header_line_3"></div>
+      </div>
+
+      <div class="modal_loading__block">
+        <img src="/static/source/img/loader2.gif" alt="" />
+      </div>
+
+      <div class="modal_accept__block">
+        <div class="modal_accept_svg">
+          <svg
+            color="green"
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="check"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            class="svg-inline--fa fa-check fa-w-16 fa-3x"
+          >
+            <path
+              fill="currentColor"
+              d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+              class=""
+            ></path>
+          </svg>
         </div>
 
-        <div class="modal_loading__block">
-            <img src="/static/source/img/loader2.gif" alt="" />
+        <div class="modal_accept_text bold_title bold_title_2 color_green">
+          Все пройшло успішно
+        </div>
+      </div>
+
+      <div class="modal_bad__block">
+        <div class="modal_bad_svg">
+          <svg
+            color="red"
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="times"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 352 512"
+            class="svg-inline--fa fa-times fa-w-11 fa-3x"
+          >
+            <path
+              fill="currentColor"
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+              class=""
+            ></path>
+          </svg>
         </div>
 
-        <div class="modal_accept__block">
-            <div class="modal_accept_svg">
-                <svg color="green" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img"
-                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
-                    class="svg-inline--fa fa-check fa-w-16 fa-3x">
-                    <path fill="currentColor"
-                        d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
-                        class=""></path>
-                </svg>
-            </div>
-
-            <div class="modal_accept_text bold_title bold_title_2 color_green">
-                Все пройшло успішно
-            </div>
+        <div class="modal_bad_text bold_title bold_title_2 color_red">
+          Щось пішло не так, спробуйте пізніше
         </div>
+      </div>
 
-        <div class="modal_bad__block">
-            <div class="modal_bad_svg">
-                <svg color="red" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" role="img"
-                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"
-                    class="svg-inline--fa fa-times fa-w-11 fa-3x">
-                    <path fill="currentColor"
-                        d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
-                        class=""></path>
-                </svg>
-            </div>
-
-            <div class="modal_bad_text bold_title bold_title_2 color_red">
-                Щось пішло не так, спробуйте пізніше
-            </div>
-        </div>
-
-        <div class="modal__block modal_consultation text_std">
-            <div class="modal_close modal_close-x">
-                ×
-            </div>
-            <form action="{% url 'contact' %}" class="validation__block consultation_form">
-                <!-- {% csrf_token %} -->
-                <div class="validation_container input_section">
-                    <label for="">
-                        Ваше ім’я *
-                    </label>
-                    <input class="validation_input" data-type="name" name="name"
-                        placeholder="Введіть ім’я" type="text" />
-                </div>
-                <div class="validation_container input_section">
-                    <label for="">
-                        Ваш телефон *
-                    </label>
-                    <input class="validation_input" data-type="phone" name="phone"
-                        placeholder="+ 3 8 (___) ___ ___" />
-                </div>
-                <div class="validation_container input_section">
-                    <label for="">
-                        Ваш Email *
-                    </label>
-                    <input type="email" class="validation_input" data-type="email"
-                        name="email" placeholder="Введіть свій еmail" />
-                </div>
-                <div class="modal_btn">
-                    <button class="validation_btn btn_green" type="submit">
-                        Замовити
-                    </button>
-                    <div class="btn_red modal_close">
-                        Скасувати
-                    </div>
-                </div>
-            </form>
-        </div>
+      <div class="modal__block modal_consultation text_std">
+        <div class="modal_close modal_close-x">×</div>
+        <form
+          action="{% url 'contact' %}"
+          class="validation__block consultation_form"
+        >
+          <!-- {% csrf_token %} -->
+          <div class="validation_container input_section">
+            <label for=""> Ваше ім’я * </label>
+            <input
+              class="validation_input"
+              data-type="name"
+              name="name"
+              placeholder="Введіть ім’я"
+              type="text"
+            />
+          </div>
+          <div class="validation_container input_section">
+            <label for=""> Ваш телефон * </label>
+            <input
+              class="validation_input"
+              data-type="phone"
+              name="phone"
+              placeholder="+ 3 8 (___) ___ ___"
+            />
+          </div>
+          <div class="validation_container input_section">
+            <label for=""> Ваш Email * </label>
+            <input
+              type="email"
+              class="validation_input"
+              data-type="email"
+              name="email"
+              placeholder="Введіть свій еmail"
+            />
+          </div>
+          <div class="modal_btn">
+            <button class="validation_btn btn_green" type="submit">
+              Замовити
+            </button>
+            <div class="btn_red modal_close">Скасувати</div>
+          </div>
+        </form>
+      </div>
     </header>
 
     <main>
-        <section class="banner swiper-container">
-            <!-- <div class="banner__top">
+      <section class="banner swiper-container">
+        <!-- <div class="banner__top">
                 Працюємо по всій <span>Західній</span> <span>Україні</span> 
             </div>
             <div class="banner__img banner__img-1">
@@ -147,598 +164,575 @@
             <div class="banner__img banner__img-2">
                 <img src="/static/source/img/banner/time.png" alt="">
             </div> -->
-            <div class="swiper-wrapper">
-                <div class="swiper-slide banner__slide">
-                    <img src="/static/source/img/banner/port-terminal-konteinera-konteiner-krany-zaton-sudno-kontein.jpg" alt="slideImg" />
-                </div>
-            </div>
-            <div class="banner__left">
-                <h1 class="banner__title">
-                    <div class="banner__title-1">
-                        Митні брокери
-                    </div>
-                    <div class="banner__title-2">
-                        Брок Імекс
-                    </div>
-                </h1>
-                <div class="banner__text">
-                    допоможуть Вам заощадити 
-                    <br/>
-                    час та кошти
-                </div>
-                <button class="btn_red modal_open" data-href="modal_consultation">
-                    Безкоштовна консультація
-                </button>
-            </div>
-            <div class="swiper-pagination banner-pagination"></div>
-        </section>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide banner__slide">
+            <img
+              src="/static/source/img/banner/port-terminal-konteinera-konteiner-krany-zaton-sudno-kontein.jpg"
+              alt="slideImg"
+            />
+          </div>
+        </div>
+        <div class="banner__left">
+          <h1 class="banner__title">
+            <div class="banner__title-1">Митні брокери</div>
+            <div class="banner__title-2">Брок Імекс</div>
+          </h1>
+          <div class="banner__text">
+            допоможуть Вам заощадити
+            <br />
+            час та кошти
+          </div>
+          <button class="btn_red modal_open" data-href="modal_consultation">
+            Безкоштовна консультація
+          </button>
+        </div>
+        <div class="swiper-pagination banner-pagination"></div>
+      </section>
 
-        <section class="calculator text_std section_bg" id="calculator">
-            <form action="{% url 'contact' %}" class="calculator__form validation__block">
-                <hgroup class="title">
-                    <h2 class="title_1">
-                        Калькулятор розмитнення авто
-                    </h2>
-                    <h2 class="title_2">
-                        Калькулятор
-                    </h2>
-                </hgroup>
-                <div class="calculator__middle">
-                    <div class="calculator__left">
-                        <div class="calculator__top validation_container">
-                            <div class="calculator__top-title">Ціна автомобіля</div>
-                            <input type="number" name="price" placeholder="10000" class="validation_input"
-                                data-type="required">
-                            <div class="radio_section">
-                                <input type="radio" name="currency" id="USD" class="cff_usd">
-                                <label for="USD" class="radio_label">USD</label>
-                                <input type="radio" name="currency" id="СAD" class="cff_cad">
-                                <label for="СAD">СAD</label>
-                                <input type="radio" name="currency" id="EURO" class="cff_euro" data-value="1" checked>
-                                <label for="EURO">EURO</label>
-                                <input type="radio" name="currency" id="UAN" class="cff_uan">
-                                <label for="UAN">UAN</label>
-                            </div>
-                        </div>
-                        <div class="input_section_container">
-                            <div class="input_section">
-                                <label for="">Категорії транспортних засобів</label>
-                                <select name="category">
-                                    <option value="passenger">
-                                        Легкові
-                                    </option>
-                                    <option value="trucks">
-                                        Вантажні
-                                    </option>
-                                </select>
-                            </div>
-                            
-                            <div class="input_section validation_container">
-                                <label for="">Об’єм двигуна, куб.см</label>
-                                <input type="number" name="engine" placeholder="2500" class="validation_input"
-                                    data-type="required">
-                            </div>
-                            <div class="input_section">
-                                <label for="">Тип палива</label>
-                                <select name="fuel">
-                                    <option value="gasoline" data-min_rate="50" data-max_rate="100" data-lim="3000">
-                                        Бензин
-                                    </option>
-                                    <option value="diesel" data-min_rate="75" data-max_rate="150" data-lim="3500">
-                                        дизель
-                                    </option>
-                                    <option value="gas" data-min_rate="50" data-max_rate="100" data-lim="3000">
-                                        газ
-                                    </option>
-                                    <option value="hybrid">
-                                        гібрид
-                                    </option>
-                                </select>
-                            </div>
-                            <div class="input_section">
-                                <label for="">Рік випуску</label>
-                                <select name="year">
-                                    {% for year in years %}
-                                    <option value="{{year.name}}">
-                                        {{year.name}}
-                                    </option>
-                                    {% endfor %}
-                                    <option value="2000">
-                                        2000
-                                    </option>
-                                    <option value="2023">
-                                        2023
-                                    </option>
-                                </select>
-                            </div>
-<!--                            <div class="input_section validation_container">-->
-<!--                                <label for="">Ім’я*</label>-->
-<!--                                <input type="text" name="name" placeholder="Ваше ім’я" data-type="name"-->
-<!--                                    class="validation_input">-->
-<!--                            </div>-->
-<!--                            <div class="input_section validation_container">-->
-<!--                                <label for="">Email</label>-->
-<!--                                <input type="email" name="email" placeholder="Ваше email" data-type="email"-->
-<!--                                    class="validation_input">-->
-<!--                            </div>-->
-<!--                            <div class="input_section validation_container">-->
-<!--                                <label for="">Телефон*</label>-->
-<!--                                <input data-type="phone" name="phone" placeholder="+3 80 (___)  ___ ___"-->
-<!--                                    data-type="phone" class="validation_input">-->
-<!--                            </div>-->
-                        </div>
-                    </div>
-                    <div class="calculator__right">
-                        <div class="calculator_result">
-                            <div class="calculator_result__title">
-                                Результат
-                            </div>
-                            <div class="calculator_result__main">
-                                <div class="calculator_result__price">
-                                    <span>
-                                        Ціна (USD)
-                                    </span>
-                                    <span class="calculator_result__price-value">
-                                        <span class="result_currency cff_usd" id="result_usd">0</span> $
-                                    </span>
-                                </div>
-                                <div class="calculator_result__price">
-                                    <span>
-                                        Ціна (EURO)
-                                    </span>
-                                    <span class="calculator_result__price-value">
-                                        <span class="result_currency cff_euro" id="result_euro" data-value="1">0</span> €
-                                    </span>
-                                </div>
-                                <div class="calculator_result__price">
-                                    <span>
-                                        Ціна (СAD)
-                                    </span>
-                                    <span class="calculator_result__price-value">
-                                        <span class="result_currency cff_cad" id="result_cad">0</span> ¢
-                                    </span>
-                                </div>
-                                <div class="calculator_result__price">
-                                    <span>
-                                        Ціна (UAN)
-                                    </span>
-                                    <span class="calculator_result__price-value">
-                                        <span class="result_currency cff_uan" id="result_uan">0</span> ₴
-                                    </span>
-                                </div>
-                            </div>
-                            <div>
-                                *розрахунок зроблено за новими тарифами (закон №8487.8488)
-                            </div>
-                        </div>
-                    </div>
+      <section class="calculator text_std section_bg" id="calculator">
+        <form
+          action="{% url 'contact' %}"
+          class="calculator__form validation__block"
+        >
+          <hgroup class="title">
+            <h2 class="title_1">Калькулятор розмитнення авто</h2>
+            <h2 class="title_2">Калькулятор</h2>
+          </hgroup>
+          <div class="calculator__middle">
+            <div class="calculator__left">
+              <div class="calculator__top validation_container">
+                <div class="calculator__top-title">Ціна автомобіля</div>
+                <input
+                  type="number"
+                  name="price"
+                  placeholder="10000"
+                  class="validation_input"
+                  data-type="required"
+                />
+                <div class="radio_section">
+                  <input
+                    type="radio"
+                    name="currency"
+                    id="USD"
+                    class="cff_usd"
+                  />
+                  <label for="USD" class="radio_label">USD</label>
+                  <input
+                    type="radio"
+                    name="currency"
+                    id="СAD"
+                    class="cff_cad"
+                  />
+                  <label for="СAD">СAD</label>
+                  <input
+                    type="radio"
+                    name="currency"
+                    id="EURO"
+                    class="cff_euro"
+                    data-value="1"
+                    checked
+                  />
+                  <label for="EURO">EURO</label>
+                  <input
+                    type="radio"
+                    name="currency"
+                    id="UAN"
+                    class="cff_uan"
+                  />
+                  <label for="UAN">UAN</label>
                 </div>
-                <div class="calculator__bottom">
-                    <div class="calculator__btn">
-                        <button class="btn_red validation_btn" type="submit">
-                            Розрахувати
-                        </button>
-                        <div class="btn_green modal_open" data-href="modal_consultation">
-                            Зв’язатися з нами
-                        </div>
-                    </div>
-                    <div class="calculator_course">
-                        <div>
-                            Курс
-                        </div>
-                        <div class="calculator_course__item">
-                            <span>
-                                <img src="/static/source/img/calculator/emojione_flag-for-liberia.svg" alt="">
-                                USD
-                            </span>
-                            <span id="curse_usd">
-                                <!-- 36.5686 -->
-                            </span>
-                        </div>
-                        <div class="calculator_course__item">
-                            <span>
-                                <img src="/static/source/img/calculator/emojione_flag-for-canada.svg" alt="">
-                                CAD
-                            </span>
-                            <span id="curse_cad">
-                                <!-- 26.6807 -->
-                            </span>
-                        </div>
-                        <div class="calculator_course__item">
-                            <span>
-                                <img src="/static/source/img/calculator/emojione_flag-for-european-union.svg" alt="">
-                                EURO
-                            </span>
-                            <span id="curse_euro">
-                                <!-- 35.6379 -->
-                            </span>
-                        </div>
-                    </div>
+              </div>
+              <div class="input_section_container">
+                <div class="input_section">
+                  <label for="">Категорії транспортних засобів</label>
+                  <select name="category">
+                    <option value="passenger">Легкові</option>
+                    <option value="trucks">Вантажні</option>
+                  </select>
                 </div>
-            </form>
-        </section>
 
-        <section class="work" id="work">
-            <hgroup class="title">
-                <h2 class="title_1">
-                    Як ми працюємо?
-                </h2>
-                <h2 class="title_2">
-                    Етапи роботи
-                </h2>
-            </hgroup>
-            <div class="work__items">
-                <div class="work__item">
-                    <span>1</span>
-                    <img src="/static/source/img/work/Frame 62.svg" alt="">
-                    <div>
-                        Консультація брокера
-                    </div>
+                <div class="input_section validation_container">
+                  <label for="">Об’єм двигуна, куб.см</label>
+                  <input
+                    type="number"
+                    name="engine"
+                    placeholder="2500"
+                    class="validation_input"
+                    data-type="required"
+                  />
                 </div>
-                <div class="work__item">
-                    <span>2</span>
-                    <img src="/static/source/img/work/Frame 62 (1).svg" alt="">
-                    <div>
-                        Пошук найкращого рішення для клієнта згідно його потреб
-                    </div>
+                <div class="input_section">
+                  <label for="">Тип палива</label>
+                  <select name="fuel">
+                    <option
+                      value="gasoline"
+                      data-min_rate="50"
+                      data-max_rate="100"
+                      data-lim="3000"
+                    >
+                      Бензин
+                    </option>
+                    <option
+                      value="diesel"
+                      data-min_rate="75"
+                      data-max_rate="150"
+                      data-lim="3500"
+                    >
+                      дизель
+                    </option>
+                    <option
+                      value="gas"
+                      data-min_rate="50"
+                      data-max_rate="100"
+                      data-lim="3000"
+                    >
+                      газ
+                    </option>
+                    <option value="hybrid">гібрид</option>
+                  </select>
                 </div>
-                <div class="work__item">
-                    <span>3</span>
-                    <img src="/static/source/img/work/Frame 62 (2).svg" alt="">
-                    <div>
-                        Підписання договору
-                    </div>
+                <div class="input_section">
+                  <label for="">Рік випуску</label>
+                  <select name="year">
+                    {% for year in years %}
+                    <option value="{{year.name}}">{{year.name}}</option>
+                    {% endfor %}
+                  </select>
                 </div>
-                <div class="work__item">
-                    <span>4</span>
-                    <img src="/static/source/img/work/registration 1.svg" alt="">
-                    <div>
-                        Реєстрація суб'єкта ЗЕД
-                    </div>
-                </div>
-                <div class="work__item">
-                    <span>5</span>
-                    <img src="/static/source/img/work/coding 1.svg" alt="">
-                    <div>
-                        Підбір митних кодів
-                    </div>
-                </div>
-                <div class="work__item">
-                    <span>6</span>
-                    <img src="/static/source/img/work/document 1.svg" alt="">
-                    <div>
-                        Отримання всіх необхідних
-                        документів та форм
-                    </div>
-                </div>
-                <div class="work__item">
-                    <span>7</span>
-                    <img src="/static/source/img/work/building 1.svg" alt="">
-                    <div>
-                        Супровід на митниці
-                        та в інших інспекціях
-                    </div>
-                </div>
-                <div class="work__item">
-                    <span>8</span>
-                    <img src="/static/source/img/work/support 1.svg" alt="">
-                    <div>
-                        Підтримка та консультації на всіх етапах роботи
-                    </div>
-                </div>
-                <div class="work__item">
-                    <span>9</span>
-                    <img src="/static/source/img/work/key 1.svg" alt="">
-                    <div>
-                        Завершення справи
-                        клієнта під ключ
-                    </div>
-                </div>
+                <!--                            <div class="input_section validation_container">-->
+                <!--                                <label for="">Ім’я*</label>-->
+                <!--                                <input type="text" name="name" placeholder="Ваше ім’я" data-type="name"-->
+                <!--                                    class="validation_input">-->
+                <!--                            </div>-->
+                <!--                            <div class="input_section validation_container">-->
+                <!--                                <label for="">Email</label>-->
+                <!--                                <input type="email" name="email" placeholder="Ваше email" data-type="email"-->
+                <!--                                    class="validation_input">-->
+                <!--                            </div>-->
+                <!--                            <div class="input_section validation_container">-->
+                <!--                                <label for="">Телефон*</label>-->
+                <!--                                <input data-type="phone" name="phone" placeholder="+3 80 (___)  ___ ___"-->
+                <!--                                    data-type="phone" class="validation_input">-->
+                <!--                            </div>-->
+              </div>
             </div>
-            <button class="btn_green modal_open" data-href="modal_consultation">
-                Дізнатись вартість
-            </button>
-        </section>
+            <div class="calculator__right">
+              <div class="calculator_result">
+                <div class="calculator_result__title">Результат</div>
+                <div class="calculator_result__main">
+                  <div class="calculator_result__price">
+                    <span> Ціна (USD) </span>
+                    <span class="calculator_result__price-value">
+                      <span class="result_currency cff_usd" id="result_usd"
+                        >0</span
+                      >
+                      $
+                    </span>
+                  </div>
+                  <div class="calculator_result__price">
+                    <span> Ціна (EURO) </span>
+                    <span class="calculator_result__price-value">
+                      <span
+                        class="result_currency cff_euro"
+                        id="result_euro"
+                        data-value="1"
+                        >0</span
+                      >
+                      €
+                    </span>
+                  </div>
+                  <div class="calculator_result__price">
+                    <span> Ціна (СAD) </span>
+                    <span class="calculator_result__price-value">
+                      <span class="result_currency cff_cad" id="result_cad"
+                        >0</span
+                      >
+                      ¢
+                    </span>
+                  </div>
+                  <div class="calculator_result__price">
+                    <span> Ціна (UAN) </span>
+                    <span class="calculator_result__price-value">
+                      <span class="result_currency cff_uan" id="result_uan"
+                        >0</span
+                      >
+                      ₴
+                    </span>
+                  </div>
+                </div>
+                <div>
+                  *розрахунок зроблено за новими тарифами (закон №8487.8488)
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calculator__bottom">
+            <div class="calculator__btn">
+              <button class="btn_red validation_btn" type="submit">
+                Розрахувати
+              </button>
+              <div class="btn_green modal_open" data-href="modal_consultation">
+                Зв’язатися з нами
+              </div>
+            </div>
+            <div class="calculator_course">
+              <div>Курс</div>
+              <div class="calculator_course__item">
+                <span>
+                  <img
+                    src="/static/source/img/calculator/emojione_flag-for-liberia.svg"
+                    alt=""
+                  />
+                  USD
+                </span>
+                <span id="curse_usd">
+                  <!-- 36.5686 -->
+                </span>
+              </div>
+              <div class="calculator_course__item">
+                <span>
+                  <img
+                    src="/static/source/img/calculator/emojione_flag-for-canada.svg"
+                    alt=""
+                  />
+                  CAD
+                </span>
+                <span id="curse_cad">
+                  <!-- 26.6807 -->
+                </span>
+              </div>
+              <div class="calculator_course__item">
+                <span>
+                  <img
+                    src="/static/source/img/calculator/emojione_flag-for-european-union.svg"
+                    alt=""
+                  />
+                  EURO
+                </span>
+                <span id="curse_euro">
+                  <!-- 35.6379 -->
+                </span>
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
 
-        <section class="why_us section_bg">
-            <div class="why_us__left">
-                <hgroup class="title">
-                    <h2 class="title_1">
-                        Чому довіряють нам?
-                    </h2>
-                </hgroup>
-                <div class="why_us__text">
-                    Брокери ТОВ "Брок Імекс" це спеціалісти високої компетенції,
-                    із досвід роботи понад 12 років роботи із Українськими та зарубіжними
-                    партнерами які висловлюють загальну надійність та кофорт роботи із нашою компанією.
-                    Ми визнані кращим спеціалістами митної справи.
-                </div>
-                <div class="why_us__text">
-                    Професіонали ТОВ "Брок Імекс" надають митні послуги,
-                    вірно та грамотно оформляють документи на вантажі для проходження митного контролю.
-                    Брокери нашої компанії допомагають оформляти угоди на поставку товарів,
-                    консультують та надають супровід з усіх питань до завершення оформлення вантажів під ключ.
-                </div>
-            </div>
-            <div class="why_us__right">
-                <img src="/static/source/img/why_us/Rectangle 34.png" alt="">
-                <div class="experience">
-                    <div class="experience__text-1">
-                        <div>досвід</div> роботи понад
-                    </div>
-                    <div class="experience__text-2">
-                        <div>12</div>
-                        років
-                    </div>
-                </div>
-                <div class="why_us__text-2">
-                    Ставши нашим клієнтом лише раз Ви залишилися з нами назавжди адже <b>Ваші клопоти це наша
-                        робота!</b>
-                </div>
-            </div>
-        </section>
+      <section class="work" id="work">
+        <hgroup class="title">
+          <h2 class="title_1">Як ми працюємо?</h2>
+          <h2 class="title_2">Етапи роботи</h2>
+        </hgroup>
+        <div class="work__items">
+          <div class="work__item">
+            <span>1</span>
+            <img src="/static/source/img/work/Frame 62.svg" alt="" />
+            <div>Консультація брокера</div>
+          </div>
+          <div class="work__item">
+            <span>2</span>
+            <img src="/static/source/img/work/Frame 62 (1).svg" alt="" />
+            <div>Пошук найкращого рішення для клієнта згідно його потреб</div>
+          </div>
+          <div class="work__item">
+            <span>3</span>
+            <img src="/static/source/img/work/Frame 62 (2).svg" alt="" />
+            <div>Підписання договору</div>
+          </div>
+          <div class="work__item">
+            <span>4</span>
+            <img src="/static/source/img/work/registration 1.svg" alt="" />
+            <div>Реєстрація суб'єкта ЗЕД</div>
+          </div>
+          <div class="work__item">
+            <span>5</span>
+            <img src="/static/source/img/work/coding 1.svg" alt="" />
+            <div>Підбір митних кодів</div>
+          </div>
+          <div class="work__item">
+            <span>6</span>
+            <img src="/static/source/img/work/document 1.svg" alt="" />
+            <div>Отримання всіх необхідних документів та форм</div>
+          </div>
+          <div class="work__item">
+            <span>7</span>
+            <img src="/static/source/img/work/building 1.svg" alt="" />
+            <div>Супровід на митниці та в інших інспекціях</div>
+          </div>
+          <div class="work__item">
+            <span>8</span>
+            <img src="/static/source/img/work/support 1.svg" alt="" />
+            <div>Підтримка та консультації на всіх етапах роботи</div>
+          </div>
+          <div class="work__item">
+            <span>9</span>
+            <img src="/static/source/img/work/key 1.svg" alt="" />
+            <div>Завершення справи клієнта під ключ</div>
+          </div>
+        </div>
+        <button class="btn_green modal_open" data-href="modal_consultation">
+          Дізнатись вартість
+        </button>
+      </section>
 
-        <section class="services">
-            <div class="services__left">
-                <div class="services__title">
-                    Основний спектр митних послуг,
-                    що надаються спеціалістами ТОВ
-                    <b>"Брок Імекс"</b>
-                </div>
-                <button class="btn_red modal_open" data-href="modal_consultation">
-                    Замовити консультацію
-                </button>
+      <section class="why_us section_bg">
+        <div class="why_us__left">
+          <hgroup class="title">
+            <h2 class="title_1">Чому довіряють нам?</h2>
+          </hgroup>
+          <div class="why_us__text">
+            Брокери ТОВ "Брок Імекс" це спеціалісти високої компетенції, із
+            досвід роботи понад 12 років роботи із Українськими та зарубіжними
+            партнерами які висловлюють загальну надійність та кофорт роботи із
+            нашою компанією. Ми визнані кращим спеціалістами митної справи.
+          </div>
+          <div class="why_us__text">
+            Професіонали ТОВ "Брок Імекс" надають митні послуги, вірно та
+            грамотно оформляють документи на вантажі для проходження митного
+            контролю. Брокери нашої компанії допомагають оформляти угоди на
+            поставку товарів, консультують та надають супровід з усіх питань до
+            завершення оформлення вантажів під ключ.
+          </div>
+        </div>
+        <div class="why_us__right">
+          <img src="/static/source/img/why_us/Rectangle 34.png" alt="" />
+          <div class="experience">
+            <div class="experience__text-1">
+              <div>досвід</div>
+              роботи понад
             </div>
-            <div class="services__right">
-                <div class="services__item">
-                    <div class="services__num">
-                        01
-                    </div>
-                    <div class="text_std">
-                        Допомога брокера при тимчасовому ввезенні / вивезенні вантажу
-                    </div>
-                </div>
-                <div class="services__item">
-                    <div class="services__num">
-                        02
-                    </div>
-                    <div class="text_std">
-                        Оформлення під час транзиту товарів
-                    </div>
-                </div>
-                <div class="services__item">
-                    <div class="services__num">
-                        03
-                    </div>
-                    <div class="text_std">
-                        Акредитація на митниці
-                    </div>
-                </div>
-                <div class="services__item">
-                    <div class="services__num">
-                        04
-                    </div>
-                    <div class="text_std">
-                        Консультаційні послуги з підбору кодів
-                    </div>
-                </div>
-                <div class="services__item">
-                    <div class="services__num">
-                        05
-                    </div>
-                    <div class="text_std">
-                        Розрахунок вартості ввезення або вивезення вантажу
-                    </div>
-                </div>
-                <div class="services__item">
-                    <div class="services__num">
-                        06
-                    </div>
-                    <div class="text_std">
-                        Отримання сертифіката EUR1
-                    </div>
-                </div>
-                <div class="services__item">
-                    <div class="services__num">
-                        07
-                    </div>
-                    <div class="text_std">
-                        Складські послуги
-                    </div>
-                </div>
-                <div class="services__item">
-                    <div class="services__num">
-                        08
-                    </div>
-                    <div class="text_std">
-                        Складання і правовий супровід контрактів
-                    </div>
-                </div>
-                <div class="services__item">
-                    <div class="services__num">
-                        09
-                    </div>
-                    <div class="text_std">
-                        Реекспорт та багато іншого
-                    </div>
-                </div>
+            <div class="experience__text-2">
+              <div>12</div>
+              років
             </div>
-        </section>
+          </div>
+          <div class="why_us__text-2">
+            Ставши нашим клієнтом лише раз Ви залишилися з нами назавжди адже
+            <b>Ваші клопоти це наша робота!</b>
+          </div>
+        </div>
+      </section>
 
-        <section class="partners section_bg">
-            <hgroup class="title">
-                <h2 class="title_1">
-                    Наші партнери
-                </h2>
-                <div class="text_std">
-                    Професіонали ТОВ <b>"Брок Імекс"</b> займаються розмитненням комплексно вирішуючи завдання клієнта
-                    або партнера при проходженні митниці чи пропускного пункту.
-                </div>
-            </hgroup>
-            <div class="swiper-container partners_swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="/static/source/img/partners/logo_1 (1).svg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="/static/source/img/partners/logo_1 (2).svg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="/static/source/img/partners/logo_1 (3).svg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="/static/source/img/partners/logo_1.svg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="/static/source/img/partners/logo_1 (1).svg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="/static/source/img/partners/logo_1 (2).svg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="/static/source/img/partners/logo_1 (3).svg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="/static/source/img/partners/logo_1.svg" alt="">
-                    </div>
-                </div>
-                <div class="swiper-pagination partners-pagination"></div>
+      <section class="services">
+        <div class="services__left">
+          <div class="services__title">
+            Основний спектр митних послуг, що надаються спеціалістами ТОВ
+            <b>"Брок Імекс"</b>
+          </div>
+          <button class="btn_red modal_open" data-href="modal_consultation">
+            Замовити консультацію
+          </button>
+        </div>
+        <div class="services__right">
+          <div class="services__item">
+            <div class="services__num">01</div>
+            <div class="text_std">
+              Допомога брокера при тимчасовому ввезенні / вивезенні вантажу
             </div>
-        </section>
+          </div>
+          <div class="services__item">
+            <div class="services__num">02</div>
+            <div class="text_std">Оформлення під час транзиту товарів</div>
+          </div>
+          <div class="services__item">
+            <div class="services__num">03</div>
+            <div class="text_std">Акредитація на митниці</div>
+          </div>
+          <div class="services__item">
+            <div class="services__num">04</div>
+            <div class="text_std">Консультаційні послуги з підбору кодів</div>
+          </div>
+          <div class="services__item">
+            <div class="services__num">05</div>
+            <div class="text_std">
+              Розрахунок вартості ввезення або вивезення вантажу
+            </div>
+          </div>
+          <div class="services__item">
+            <div class="services__num">06</div>
+            <div class="text_std">Отримання сертифіката EUR1</div>
+          </div>
+          <div class="services__item">
+            <div class="services__num">07</div>
+            <div class="text_std">Складські послуги</div>
+          </div>
+          <div class="services__item">
+            <div class="services__num">08</div>
+            <div class="text_std">Складання і правовий супровід контрактів</div>
+          </div>
+          <div class="services__item">
+            <div class="services__num">09</div>
+            <div class="text_std">Реекспорт та багато іншого</div>
+          </div>
+        </div>
+      </section>
 
-        <section class="about section_bg" id="about">
-            <hgroup class="title">
-                <h2 class="title_1">
-                    Про нас
-                </h2>
-                <h2 class="title_2">
-                    Про Brock Imex
-                </h2>
-            </hgroup>
-            <div class="about__top">
-                <div class="about__left">
-                    <img src="/static/source/img/about/Rectangle 34.png" alt="">
-                </div>
-                <div class="about__right">
-                    ТОВ <b>"Брок Імекс"</b> об’єднує професіоналів у сфері митного оформлення вантажів і логістичних
-                    послуг.
-                    <br>
-                    <br>
-                    <b>Ми здійснюємо послуги митного оформлення</b> (митного очищення, декларування товарів) в режимі
-                    імпорту,
-                    експорту, транзиту та тимчасового ввезення вантажів.
-                    <br>
-                    <br>
-                    <b>Наша перевага</b> — це здатність професійно та комплексно забезпечити зовнішньоекономічну
-                    діяльність наших клієнтів.
-                    У більшості, перед кожним нашим клієнтом поставлені унікальні завдання, тому ми можемо запропонувати
-                    послуги,
-                    які повністю відповідають Вашим запитам.
-                </div>
+      <section class="partners section_bg">
+        <hgroup class="title">
+          <h2 class="title_1">Наші партнери</h2>
+          <div class="text_std">
+            Професіонали ТОВ <b>"Брок Імекс"</b> займаються розмитненням
+            комплексно вирішуючи завдання клієнта або партнера при проходженні
+            митниці чи пропускного пункту.
+          </div>
+        </hgroup>
+        <div class="swiper-container partners_swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/static/source/img/partners/logo_1 (1).svg" alt="" />
             </div>
-            <div class="about_services swiper-container">
-                <h3 class="about__title">Послуги митного брокера:</h3>
-                <div class="swiper-wrapper text_std">
-                    <div class="swiper-slide about_services__item">
-                        <img src="/static/source/img/about/Rectangle 49.png" alt="">
-                        <div>
-                            Митне оформлення в режимах імпорт, експорт, транзит.
-                        </div>
-                    </div>
-                    <div class="swiper-slide about_services__item">
-                        <img src="/static/source/img/about/Rectangle 50.png" alt="">
-                        <div>
-                            Консультації у сфері зовнішньоекономічної діяльності (контракти, товаросупровідні
-                            документи).
-                        </div>
-                    </div>
-                    <div class="swiper-slide about_services__item">
-                        <img src="/static/source/img/about/Rectangle 51.png" alt="">
-                        <div>
-                            Акредитація на митниці та в інших інспекціях (фітосанітарна, ветеринарна).
-                        </div>
-                    </div>
-                    <div class="swiper-slide about_services__item">
-                        <img src="/static/source/img/about/Rectangle 52.png" alt="">
-                        <div>
-                            Проведення усіх форм контролю до митного оформлення (попередні рішення митниці, сертифікати,
-                            висновки).
-                        </div>
-                    </div>
-                </div>
+            <div class="swiper-slide">
+              <img src="/static/source/img/partners/logo_1 (2).svg" alt="" />
             </div>
-        </section>
+            <div class="swiper-slide">
+              <img src="/static/source/img/partners/logo_1 (3).svg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/static/source/img/partners/logo_1.svg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/static/source/img/partners/logo_1 (1).svg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/static/source/img/partners/logo_1 (2).svg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/static/source/img/partners/logo_1 (3).svg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/static/source/img/partners/logo_1.svg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination partners-pagination"></div>
+        </div>
+      </section>
 
-        <section class="contacts section_bg" id="contacts">
-            <hgroup class="title">
-                <h2 class="title_1">Контакти</h2>
-            </hgroup>
-            <div class="contacts__top">
-                <address>
-                    <a href="tel:{{site.phone}}">
-                        <img src="/static/source/img/contacts/Frame 1.svg" alt="">
-                        {{site.phone}}
-                    </a>
-                    <a href="mailto:{{site.mail}}">
-                        <img src="/static/source//img/contacts/Frame 1 (1).svg" alt="">
-                        {{site.mail}}
-                    </a>
-                    <a>
-                        Понеділок - П'ятниця
-                        з 9:00 до 18:00
-                        <br/>
-                        Субота - Неділя Вихідні
-                    </a>
-                    <a href="">
-                        <img src="/static/source/img/contacts/carbon_location-filled.svg" alt="">
-                        м.Хмельницький вулиця Північна, 99
-                    </a>
-                </address>
-                <button class="btn_red modal_open" data-href="modal_consultation">
-                    Зв’язатися з нами
-                </button>
+      <section class="about section_bg" id="about">
+        <hgroup class="title">
+          <h2 class="title_1">Про нас</h2>
+          <h2 class="title_2">Про Brock Imex</h2>
+        </hgroup>
+        <div class="about__top">
+          <div class="about__left">
+            <img src="/static/source/img/about/Rectangle 34.png" alt="" />
+          </div>
+          <div class="about__right">
+            ТОВ <b>"Брок Імекс"</b> об’єднує професіоналів у сфері митного
+            оформлення вантажів і логістичних послуг.
+            <br />
+            <br />
+            <b>Ми здійснюємо послуги митного оформлення</b> (митного очищення,
+            декларування товарів) в режимі імпорту, експорту, транзиту та
+            тимчасового ввезення вантажів.
+            <br />
+            <br />
+            <b>Наша перевага</b> — це здатність професійно та комплексно
+            забезпечити зовнішньоекономічну діяльність наших клієнтів. У
+            більшості, перед кожним нашим клієнтом поставлені унікальні
+            завдання, тому ми можемо запропонувати послуги, які повністю
+            відповідають Вашим запитам.
+          </div>
+        </div>
+        <div class="about_services swiper-container">
+          <h3 class="about__title">Послуги митного брокера:</h3>
+          <div class="swiper-wrapper text_std">
+            <div class="swiper-slide about_services__item">
+              <img src="/static/source/img/about/Rectangle 49.png" alt="" />
+              <div>Митне оформлення в режимах імпорт, експорт, транзит.</div>
             </div>
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32473.040773650016!2d26.939053941781445!3d49.441316359475465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4732072869087515%3A0x4fa1474f8dbeaa60!2z0LLRg9C70LjRhtGPINCf0ZbQstC90ZbRh9C90LAsIDk5LCDQpdC80LXQu9GM0L3QuNGG0YzQutC40LksINCl0LzQtdC70YzQvdC40YbRjNC60LAg0L7QsdC70LDRgdGC0YwsINCj0LrRgNCw0ZfQvdCwLCAyOTAwMA!5e0!3m2!1suk!2sfr!4v1664461100739!5m2!1suk!2sfr" 
-                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </section>
+            <div class="swiper-slide about_services__item">
+              <img src="/static/source/img/about/Rectangle 50.png" alt="" />
+              <div>
+                Консультації у сфері зовнішньоекономічної діяльності (контракти,
+                товаросупровідні документи).
+              </div>
+            </div>
+            <div class="swiper-slide about_services__item">
+              <img src="/static/source/img/about/Rectangle 51.png" alt="" />
+              <div>
+                Акредитація на митниці та в інших інспекціях (фітосанітарна,
+                ветеринарна).
+              </div>
+            </div>
+            <div class="swiper-slide about_services__item">
+              <img src="/static/source/img/about/Rectangle 52.png" alt="" />
+              <div>
+                Проведення усіх форм контролю до митного оформлення (попередні
+                рішення митниці, сертифікати, висновки).
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts section_bg" id="contacts">
+        <hgroup class="title">
+          <h2 class="title_1">Контакти</h2>
+        </hgroup>
+        <div class="contacts__top">
+          <address>
+            <a href="tel:{{site.phone}}">
+              <img src="/static/source/img/contacts/Frame 1.svg" alt="" />
+              {{site.phone}}
+            </a>
+            <a href="mailto:{{site.mail}}">
+              <img src="/static/source//img/contacts/Frame 1 (1).svg" alt="" />
+              {{site.mail}}
+            </a>
+            <a>
+              Понеділок - П'ятниця з 9:00 до 18:00
+              <br />
+              Субота - Неділя Вихідні
+            </a>
+            <a href="">
+              <img
+                src="/static/source/img/contacts/carbon_location-filled.svg"
+                alt=""
+              />
+              м.Хмельницький вулиця Північна, 99
+            </a>
+          </address>
+          <button class="btn_red modal_open" data-href="modal_consultation">
+            Зв’язатися з нами
+          </button>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32473.040773650016!2d26.939053941781445!3d49.441316359475465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4732072869087515%3A0x4fa1474f8dbeaa60!2z0LLRg9C70LjRhtGPINCf0ZbQstC90ZbRh9C90LAsIDk5LCDQpdC80LXQu9GM0L3QuNGG0YzQutC40LksINCl0LzQtdC70YzQvdC40YbRjNC60LAg0L7QsdC70LDRgdGC0YwsINCj0LrRgNCw0ZfQvdCwLCAyOTAwMA!5e0!3m2!1suk!2sfr!4v1664461100739!5m2!1suk!2sfr"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </section>
     </main>
 
     <footer class="footer container">
-        <nav class="nav">
-            <a href="#calculator" class="nav__item">
-                калькулятор розмитнення
-            </a>
-            <a href="#work" class="nav__item">
-                етапи роботи
-            </a>
-            <a href="#about" class="nav__item">
-                Про нас
-            </a>
-            <a href="#contacts" class="nav__item">
-                Контакти
-            </a>
-        </nav>
-        <address class="address">
-            <a href="tel:{{site.phone}}">
-                <img src="/static/source/img/common/Frame 1.svg" alt="phone">
-                {{site.phone}}
-            </a>
-            <a href="{{site.instagram}}">
-                <img src="/static/source/img/common/Frame 14.svg" alt="">
-            </a>
-            <a href="{{site.facebook}}">
-                <img src="/static/source/img/common/Frame 15.svg" alt="">
-            </a>
-        </address>
-        <a href="https://starway.agency/">
-            <img src="/static/source/img/common/sw-logo 1.svg" alt="">
+      <nav class="nav">
+        <a href="#calculator" class="nav__item"> калькулятор розмитнення </a>
+        <a href="#work" class="nav__item"> етапи роботи </a>
+        <a href="#about" class="nav__item"> Про нас </a>
+        <a href="#contacts" class="nav__item"> Контакти </a>
+      </nav>
+      <address class="address">
+        <a href="tel:{{site.phone}}">
+          <img src="/static/source/img/common/Frame 1.svg" alt="phone" />
+          {{site.phone}}
         </a>
+        <a href="{{site.instagram}}">
+          <img src="/static/source/img/common/Frame 14.svg" alt="" />
+        </a>
+        <a href="{{site.facebook}}">
+          <img src="/static/source/img/common/Frame 15.svg" alt="" />
+        </a>
+      </address>
+      <a href="https://starway.agency/">
+        <img src="/static/source/img/common/sw-logo 1.svg" alt="" />
+      </a>
     </footer>
 
     <script src="/static/source/pages/index/index.js"></script>
-
-</body>
-
+  </body>
 </html>
