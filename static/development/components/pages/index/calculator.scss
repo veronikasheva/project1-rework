@@ -1,4 +1,46 @@
 .calculator {
+  background: rgb(131, 168, 181);
+  background: linear-gradient(
+    180deg,
+    rgba(131, 168, 181, 1) 0%,
+    rgba(255, 255, 255, 1) 15%
+  );
+  color: #2c2c2c;
+
+  .radio_section input:checked + label {
+    background: rgba(84, 150, 110, 0.25);
+  }
+
+  .title_2 {
+    margin-left: 20px;
+  }
+
+  @media (max-width: 1510px) {
+    background: linear-gradient(
+      180deg,
+      rgba(131, 168, 181, 1) 0%,
+      rgba(255, 255, 255, 1) 25%
+    );
+  }
+
+  &__form {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    @media (max-width: 1920px) {
+      max-width: none;
+      width: 60%;
+    }
+
+    @media (max-width: 1440px) {
+      width: 70%;
+    }
+
+    @media (max-width: 1100px) {
+      width: auto;
+    }
+  }
+
   &__top {
     display: flex;
     justify-content: space-between;
@@ -13,6 +55,7 @@
     input[type="number"] {
       width: 50%;
       border: none;
+      padding: 10px 20px;
     }
   }
   &__middle {
@@ -27,6 +70,7 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
+        margin-bottom: 15px;
 
         label {
           min-width: 300px;
@@ -37,6 +81,7 @@
         select {
           width: 100%;
           margin-left: 30px;
+          padding: 8px;
         }
       }
     }
@@ -46,27 +91,35 @@
     padding-left: 50px;
   }
   &_result {
+    margin-top: 15px;
     &__title {
       font-style: normal;
       font-weight: 500;
-      font-size: 16px;
+      font-size: 18px;
       line-height: 19px;
-      color: #d9cb9e;
+      color: #378858;
+      font-weight: 600;
     }
     &__main {
-      border: 1px solid #d9cb9e;
-      padding: 20px 30px;
+      border: 1px solid #378858;
+      padding: 10px 30px;
       display: flex;
       flex-wrap: wrap;
-      margin: 20px 0;
+      margin: 15px 0;
     }
     &__price {
+      margin-top: 5px;
+
       width: 50%;
       &-currency {
         margin-right: 20px;
       }
       &-value {
-        color: #d9cb9e;
+        color: #378858;
+
+        span {
+          font-weight: 600;
+        }
       }
     }
   }
@@ -83,13 +136,15 @@
   }
   &_course {
     display: flex;
+    margin: 10px 0;
+
     div:not(:last-child) {
       margin-right: 20px;
     }
   }
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 9999px) {
   .calculator__middle {
     flex-direction: column;
     margin-top: 20px;
@@ -101,21 +156,24 @@
   }
   .calculator__bottom,
   .calculator__btn {
-    flex-direction: column-reverse;
+    padding: 0 !important;
+
     button,
     div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 100%;
+
+      @media (max-width: 500px) {
+        height: 56px;
+        padding: 10px;
+      }
     }
-    div {
-      margin-bottom: 10px;
-    }
-  }
-  .calculator_course {
-    margin: 20px 0;
   }
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 9999px) {
   .calculator__left {
     .input_section_container {
       flex-direction: column;
@@ -138,7 +196,7 @@
   }
 
   .radio_section {
-    padding: 0 20px 20px 20px;
+    padding: 0 10px 10px;
   }
 }
 

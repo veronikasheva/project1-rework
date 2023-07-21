@@ -186,10 +186,9 @@
             Безкоштовна консультація
           </button>
         </div>
-        <div class="swiper-pagination banner-pagination"></div>
       </section>
 
-      <section class="calculator text_std section_bg" id="calculator">
+      <section class="calculator text_std" id="calculator">
         <form
           action="{% url 'contact' %}"
           class="calculator__form validation__block"
@@ -315,10 +314,24 @@
                 <!--                                    data-type="phone" class="validation_input">-->
                 <!--                            </div>-->
               </div>
+
+              <div class="calculator__bottom">
+                <div class="calculator__btn">
+                  <button class="btn_red validation_btn" type="submit">
+                    Розрахувати
+                  </button>
+                  <div
+                    class="btn_green modal_open"
+                    data-href="modal_consultation"
+                  >
+                    Зв’язатися з нами
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="calculator__right">
               <div class="calculator_result">
-                <div class="calculator_result__title">Результат</div>
+                <div class="calculator_result__title">Результат:</div>
                 <div class="calculator_result__main">
                   <div class="calculator_result__price">
                     <span> Ціна (USD) </span>
@@ -329,7 +342,7 @@
                       $
                     </span>
                   </div>
-                  <div class="calculator_result__price">
+                  <!-- <div class="calculator_result__price">
                     <span> Ціна (EURO) </span>
                     <span class="calculator_result__price-value">
                       <span
@@ -340,8 +353,8 @@
                       >
                       €
                     </span>
-                  </div>
-                  <div class="calculator_result__price">
+                  </div> -->
+                  <!-- <div class="calculator_result__price">
                     <span> Ціна (СAD) </span>
                     <span class="calculator_result__price-value">
                       <span class="result_currency cff_cad" id="result_cad"
@@ -349,7 +362,7 @@
                       >
                       ¢
                     </span>
-                  </div>
+                  </div> -->
                   <div class="calculator_result__price">
                     <span> Ціна (UAN) </span>
                     <span class="calculator_result__price-value">
@@ -364,54 +377,44 @@
                   *розрахунок зроблено за новими тарифами (закон №8487.8488)
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="calculator__bottom">
-            <div class="calculator__btn">
-              <button class="btn_red validation_btn" type="submit">
-                Розрахувати
-              </button>
-              <div class="btn_green modal_open" data-href="modal_consultation">
-                Зв’язатися з нами
-              </div>
-            </div>
-            <div class="calculator_course">
-              <div>Курс</div>
-              <div class="calculator_course__item">
-                <span>
-                  <img
-                    src="/static/source/img/calculator/emojione_flag-for-liberia.svg"
-                    alt=""
-                  />
-                  USD
-                </span>
-                <span id="curse_usd">
-                  <!-- 36.5686 -->
-                </span>
-              </div>
-              <div class="calculator_course__item">
-                <span>
-                  <img
-                    src="/static/source/img/calculator/emojione_flag-for-canada.svg"
-                    alt=""
-                  />
-                  CAD
-                </span>
-                <span id="curse_cad">
-                  <!-- 26.6807 -->
-                </span>
-              </div>
-              <div class="calculator_course__item">
-                <span>
-                  <img
-                    src="/static/source/img/calculator/emojione_flag-for-european-union.svg"
-                    alt=""
-                  />
-                  EURO
-                </span>
-                <span id="curse_euro">
-                  <!-- 35.6379 -->
-                </span>
+              <div class="calculator_course">
+                <div>Курс</div>
+                <div class="calculator_course__item">
+                  <span>
+                    <img
+                      src="/static/source/img/calculator/emojione_flag-for-liberia.svg"
+                      alt=""
+                    />
+                    USD
+                  </span>
+                  <span id="curse_usd">
+                    <!-- 36.5686 -->
+                  </span>
+                </div>
+                <div class="calculator_course__item">
+                  <span>
+                    <img
+                      src="/static/source/img/calculator/emojione_flag-for-canada.svg"
+                      alt=""
+                    />
+                    CAD
+                  </span>
+                  <span id="curse_cad">
+                    <!-- 26.6807 -->
+                  </span>
+                </div>
+                <div class="calculator_course__item">
+                  <span>
+                    <img
+                      src="/static/source/img/calculator/emojione_flag-for-european-union.svg"
+                      alt=""
+                    />
+                    EURO
+                  </span>
+                  <span id="curse_euro">
+                    <!-- 35.6379 -->
+                  </span>
+                </div>
               </div>
             </div>
           </div>
