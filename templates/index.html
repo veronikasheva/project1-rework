@@ -298,6 +298,18 @@
                     {% endfor %}
                   </select>
                 </div>
+
+                <div class="input_section">
+                  <label for=""
+                    >Кількість років у користування (з дати першої
+                    реєстрації)</label
+                  >
+                  <select name="year">
+                    <option value="less-5">до 5 років</option>
+                    <option value="5-8">від 5 до 8 років</option>
+                    <option value="more-8">більше 8 років</option>
+                  </select>
+                </div>
                 <!--                            <div class="input_section validation_container">-->
                 <!--                                <label for="">Ім’я*</label>-->
                 <!--                                <input type="text" name="name" placeholder="Ваше ім’я" data-type="name"-->
@@ -331,7 +343,77 @@
             </div>
             <div class="calculator__right">
               <div class="calculator_result">
-                <div class="calculator_result__title">Результат:</div>
+                <div class="calculator_result__table-wrapper">
+                  <table class="calculator_result__table">
+                    <thead>
+                      <tr class="calculator_result__table-row">
+                        <th class="calculator_result__table-row-title">
+                          Вид платежу
+                        </th>
+                        <th class="calculator_result__table-row-title">
+                          Основа нарахування
+                        </th>
+                        <th class="calculator_result__table-row-title">
+                          Ставка
+                        </th>
+                        <th class="calculator_result__table-row-title">Сума</th>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                      <tr
+                        class="calculator_result__table-row calculator_result__table-duty"
+                      >
+                        <th class="calculator_result__table-row-title">Мито</th>
+                        <td class="calculator_result__table-duty-basis-accrual">
+                          (test)
+                        </td>
+                        <td class="calculator_result__table-duty-rate">10%</td>
+                        <td class="calculator_result__table-duty-result">
+                          (test)
+                        </td>
+                      </tr>
+
+                      <tr
+                        class="calculator_result__table-row calculator_result__table-excise"
+                      >
+                        <th class="calculator_result__table-row-title">
+                          Акциз
+                        </th>
+                        <td class="calculator_result__table-excise-accrual">
+                          (test)
+                        </td>
+                        <td class="calculator_result__table-excise-rate">
+                          (test)
+                        </td>
+                        <td class="calculator_result__table-excise-result">
+                          (test)
+                        </td>
+                      </tr>
+                      <tr
+                        class="calculator_result__table-row calculator_result__table-vat"
+                      >
+                        <th class="calculator_result__table-row-title">ПДВ</th>
+                        <td class="calculator_result__table-vat-accrual">
+                          (test)
+                        </td>
+                        <td class="calculator_result__table-vat-rate">20%</td>
+                        <td class="calculator_result__table-vat-result">
+                          (test)
+                        </td>
+                      </tr>
+                      <!-- <tr
+                        class="calculator_result__table-row calculator_result__table-summary"
+                      >
+                        <th class="calculator_result__table-row-title">Всього</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr> -->
+                    </tbody>
+                  </table>
+                </div>
+                <div class="calculator_result__title">Всього:</div>
                 <div class="calculator_result__main">
                   <div class="calculator_result__price">
                     <span> Ціна (USD) </span>

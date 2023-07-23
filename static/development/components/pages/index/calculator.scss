@@ -15,6 +15,16 @@
     margin-left: 20px;
   }
 
+  label {
+    white-space: initial;
+  }
+
+  input,
+  select,
+  option {
+    background-color: transparent;
+  }
+
   @media (max-width: 1510px) {
     background: linear-gradient(
       180deg,
@@ -92,6 +102,56 @@
   }
   &_result {
     margin-top: 15px;
+
+    &__table-wrapper {
+      // max-width: 320px;
+      background: rgb(131, 168, 181);
+      background: linear-gradient(
+        180deg,
+        rgba(131, 168, 181, 1) 0%,
+        rgba(255, 255, 255, 1) calc(50px + 15%)
+      );
+      border: 1px solid #2c2c2c;
+      border-radius: 10px;
+    }
+
+    &__table {
+      width: 100%;
+      overflow: hidden;
+
+      thead {
+        tr {
+          background-color: inherit;
+          height: 70px;
+        }
+      }
+
+      th,
+      td {
+        width: 100%;
+        max-width: 25%;
+        padding: 5px;
+        text-align: center;
+      }
+
+      &-row {
+        height: 50px;
+        border-bottom: 1px solid #2c2c2c;
+        overflow: auto;
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        &-title {
+          font-weight: 600;
+        }
+
+        td {
+        }
+      }
+    }
+
     &__title {
       font-style: normal;
       font-weight: 500;
