@@ -19,6 +19,10 @@
     white-space: initial;
   }
 
+  .disabled {
+    display: none !important;
+  }
+
   input,
   select,
   option {

@@ -290,24 +290,24 @@
                     <option value="hybrid">гібрид</option>
                   </select>
                 </div>
-                <div class="input_section">
+                <div id="passenger-year" class="input_section">
                   <label for="">Рік випуску</label>
-                  <select name="year">
+                  <select name="passenger-year">
                     {% for year in years %}
                     <option value="{{year.name}}">{{year.name}}</option>
                     {% endfor %}
                   </select>
                 </div>
 
-                <div class="input_section">
+                <div id="trucks-year" class="input_section disabled">
                   <label for=""
                     >Кількість років у користування (з дати першої
                     реєстрації)</label
                   >
-                  <select name="year">
-                    <option value="less-5">до 5 років</option>
+                  <select name="trucks-year">
+                    <option value="-5">до 5 років</option>
                     <option value="5-8">від 5 до 8 років</option>
-                    <option value="more-8">більше 8 років</option>
+                    <option value="8+">більше 8 років</option>
                   </select>
                 </div>
                 <!--                            <div class="input_section validation_container">-->
@@ -366,12 +366,10 @@
                       >
                         <th class="calculator_result__table-row-title">Мито</th>
                         <td class="calculator_result__table-duty-basis-accrual">
-                          (test)
+                          ?
                         </td>
                         <td class="calculator_result__table-duty-rate">10%</td>
-                        <td class="calculator_result__table-duty-result">
-                          (test)
-                        </td>
+                        <td class="calculator_result__table-duty-result">?</td>
                       </tr>
 
                       <tr
@@ -380,27 +378,25 @@
                         <th class="calculator_result__table-row-title">
                           Акциз
                         </th>
-                        <td class="calculator_result__table-excise-accrual">
-                          (test)
+                        <td
+                          class="calculator_result__table-excise-basis-accrual"
+                        >
+                          ?
                         </td>
-                        <td class="calculator_result__table-excise-rate">
-                          (test)
-                        </td>
+                        <td class="calculator_result__table-excise-rate">?</td>
                         <td class="calculator_result__table-excise-result">
-                          (test)
+                          ?
                         </td>
                       </tr>
                       <tr
                         class="calculator_result__table-row calculator_result__table-vat"
                       >
                         <th class="calculator_result__table-row-title">ПДВ</th>
-                        <td class="calculator_result__table-vat-accrual">
-                          (test)
+                        <td class="calculator_result__table-vat-basis-accrual">
+                          ?
                         </td>
                         <td class="calculator_result__table-vat-rate">20%</td>
-                        <td class="calculator_result__table-vat-result">
-                          (test)
-                        </td>
+                        <td class="calculator_result__table-vat-result">?</td>
                       </tr>
                       <!-- <tr
                         class="calculator_result__table-row calculator_result__table-summary"
