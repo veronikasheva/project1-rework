@@ -20770,12 +20770,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _module_validation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../module/validation */ "../components/module/validation/index.js");
 
 
+var tableDutyBasisAccrual = document.querySelector(".calculator_result__table-duty-basis-accrual");
+var tableDutyResult = document.querySelector(".calculator_result__table-duty-result");
+var tableExciseAccrual = document.querySelector(".calculator_result__table-excise-basis-accrual");
+var tableExciseRate = document.querySelector(".calculator_result__table-excise-rate");
+var tableExciseResult = document.querySelector(".calculator_result__table-excise-result");
+var tableVatBasisAccrual = document.querySelector(".calculator_result__table-vat-basis-accrual");
+var tableVatResult = document.querySelector(".calculator_result__table-vat-result");
 var calculator_btn = document.querySelector(".calculator__btn > button");
 var category = document.querySelector('select[name="category"]');
 var category_value = document.querySelector('select[name="category"]').value;
 calculator_btn.addEventListener("click", calculate);
 category.addEventListener("change", function () {
   category_value = document.querySelector('select[name="category"]').value;
+
+  if (category_value === "trucks") {
+    document.querySelector("#trucks-year").classList.remove("disabled");
+    document.querySelector("#passenger-year").classList.add("disabled");
+  } else {
+    document.querySelector("#passenger-year").classList.remove("disabled");
+    document.querySelector("#trucks-year").classList.add("disabled");
+  }
 });
 
 function calculate(e) {
@@ -20795,14 +20810,15 @@ function calculate(e) {
     var cff_engine = engine / 1000;
     var cff_year = current_year - year > 15 ? 15 : current_year === year ? 1 : current_year - year - 1;
     var rate = engine >= +fuel.dataset.lim ? +fuel.dataset.max_rate : +fuel.dataset.min_rate;
+    tableExciseRate.textContent = "".concat(cff_year, "x").concat(rate);
     return rate * cff_engine * cff_year;
   };
 
   var excise_trucks = function excise_trucks(_ref2) {
     var engine = _ref2.engine,
         year = _ref2.year;
-    var year_count = current_year - year;
-    var cff = year_count === 0 ? 0.01 : year_count < 5 ? 0.02 : year_count < 8 ? 0.8 : 1;
+    var cff = year === "-5" ? 0.02 : year === "5-8" ? 0.8 : year === "8+" ? 1 : 0.01;
+    tableExciseRate.textContent = cff;
     return engine * cff;
   };
 
@@ -20810,25 +20826,40 @@ function calculate(e) {
     var price = +document.querySelector('input[name="price"]').value;
     var currency = +document.querySelector('input[name="currency"]:checked').dataset.value;
     var engine = +document.querySelector('input[name="engine"]').value;
-    var year = +document.querySelector('select[name="year"]').value;
+    var passengerYear = +document.querySelector('select[name="passenger-year"]').value;
+    var trucksYear = document.querySelector('select[name="trucks-year"]').value;
     var fuel_select = document.querySelector('select[name="fuel"]');
     var fuel_selected_index = fuel_select.selectedIndex;
     var fuel = fuel_select.querySelectorAll("option")[fuel_selected_index];
     var excise_result = category_value === "trucks" ? excise_trucks({
       engine: engine,
-      year: year
+      year: trucksYear
     }) : excise({
       engine: engine,
-      year: year,
+      year: passengerYear,
       fuel: fuel
     });
-    var toll = price / currency * 0.1;
-    var pdv = (price / currency + excise_result + toll) * 0.2;
+    var cost = price / currency;
+    var toll = cost * 0.1;
+    var costWithDutyAndExcise = cost + excise_result + toll;
+    var pdv = costWithDutyAndExcise * 0.2;
     var result = excise_result + toll + pdv;
     var result_currency_all = document.querySelectorAll(".result_currency");
+    var result_currency_uan = +document.getElementById("result_uan").dataset.value;
     result_currency_all.forEach(function (result_currency) {
       result_currency.innerHTML = Math.round(result * result_currency.dataset.value);
     });
+
+    var getValueInUan = function getValueInUan(value) {
+      return "".concat(Math.round(value * result_currency_uan), " \u20B4");
+    };
+
+    tableDutyBasisAccrual.textContent = getValueInUan(cost);
+    tableDutyResult.textContent = getValueInUan(toll);
+    tableExciseAccrual.textContent = "".concat(engine, " \u043A\u0443\u0431.\u0441\u043C.");
+    tableExciseResult.textContent = getValueInUan(excise_result);
+    tableVatBasisAccrual.textContent = getValueInUan(costWithDutyAndExcise);
+    tableVatResult.textContent = getValueInUan(pdv);
   }
 }
 
