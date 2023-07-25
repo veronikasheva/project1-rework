@@ -260,55 +260,57 @@
                       data-type="required"
                     />
                   </div>
-                  <div class="input_section">
-                    <label for="">Тип палива</label>
-                    <select name="fuel">
-                      <option
-                        value="gasoline"
-                        data-min_rate="50"
-                        data-max_rate="100"
-                        data-lim="3000"
-                      >
-                        Бензин
-                      </option>
-                      <option
-                        value="diesel"
-                        data-min_rate="75"
-                        data-max_rate="150"
-                        data-lim="3500"
-                      >
-                        дизель
-                      </option>
-                      <option
-                        value="gas"
-                        data-min_rate="50"
-                        data-max_rate="100"
-                        data-lim="3000"
-                      >
-                        газ
-                      </option>
-                      <option value="hybrid">гібрид</option>
-                    </select>
-                  </div>
-                  <div id="passenger-year" class="input_section">
-                    <label for="">Рік випуску</label>
-                    <select name="passenger-year">
-                      {% for year in years %}
-                      <option value="{{year.name}}">{{year.name}}</option>
-                      {% endfor %}
-                    </select>
-                  </div>
+                  <div class="calculator__fields-wrapper">
+                    <div class="input_section">
+                      <label for="">Тип палива</label>
+                      <select name="fuel">
+                        <option
+                          value="gasoline"
+                          data-min_rate="50"
+                          data-max_rate="100"
+                          data-lim="3000"
+                        >
+                          Бензин
+                        </option>
+                        <option
+                          value="diesel"
+                          data-min_rate="75"
+                          data-max_rate="150"
+                          data-lim="3500"
+                        >
+                          дизель
+                        </option>
+                        <option
+                          value="gas"
+                          data-min_rate="50"
+                          data-max_rate="100"
+                          data-lim="3000"
+                        >
+                          газ
+                        </option>
+                        <option value="hybrid">гібрид</option>
+                      </select>
+                    </div>
+                    <div id="passenger-year" class="input_section">
+                      <label for="">Рік випуску</label>
+                      <select name="passenger-year">
+                        {% for year in years %}
+                        <option value="{{year.name}}">{{year.name}}</option>
+                        {% endfor %}
+                      </select>
+                    </div>
 
-                  <div id="trucks-year" class="input_section disabled">
-                    <label for=""
-                      >Кількість років у користування (з дати першої
-                      реєстрації)</label
-                    >
-                    <select name="trucks-year">
-                      <option value="-5">до 5 років</option>
-                      <option value="5-8">від 5 до 8 років</option>
-                      <option value="8+">більше 8 років</option>
-                    </select>
+                    <div id="trucks-year" class="input_section disabled">
+                      <label for=""
+                        >Кількість років у користування (з дати першої
+                        реєстрації)</label
+                      >
+                      <select name="trucks-year">
+                        <option value="-5">до 5 років</option>
+                        <option value="5-8">від 5 до 8 років</option>
+                        <option value="8+">більше 8 років</option>
+                      </select>
+                    </div>
                   </div>
                   <!--                            <div class="input_section validation_container">-->
                   <!--                                <label for="">Ім’я*</label>-->
@@ -372,13 +374,13 @@
                           <td
                             class="calculator_result__table-duty-basis-accrual"
                           >
-                            ?
+                            -
                           </td>
                           <td class="calculator_result__table-duty-rate">
                             10%
                           </td>
                           <td class="calculator_result__table-duty-result">
-                            ?
+                            -
                           </td>
                         </tr>
 
@@ -391,13 +393,13 @@
                           <td
                             class="calculator_result__table-excise-basis-accrual"
                           >
-                            ?
+                            -
                           </td>
                           <td class="calculator_result__table-excise-rate">
-                            ?
+                            -
                           </td>
                           <td class="calculator_result__table-excise-result">
-                            ?
+                            -
                           </td>
                         </tr>
                         <tr
@@ -409,10 +411,10 @@
                           <td
                             class="calculator_result__table-vat-basis-accrual"
                           >
-                            ?
+                            -
                           </td>
                           <td class="calculator_result__table-vat-rate">20%</td>
-                          <td class="calculator_result__table-vat-result">?</td>
+                          <td class="calculator_result__table-vat-result">-</td>
                         </tr>
                         <!-- <tr
                           class="calculator_result__table-row calculator_result__table-summary"
