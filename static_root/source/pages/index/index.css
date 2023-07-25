@@ -2220,6 +2220,15 @@ section {
           padding: 8px; }
   .calculator__right {
     width: 100%; }
+  .calculator__fields-wrapper {
+    display: flex; }
+    .calculator__fields-wrapper.is-trucks {
+      align-items: flex-end; }
+    .calculator__fields-wrapper .input_section input,
+    .calculator__fields-wrapper .input_section select {
+      padding: 4px 8px !important; }
+    .calculator__fields-wrapper .input_section + .input_section {
+      margin-left: 10px; }
   .calculator_result {
     margin-top: 15px; }
     .calculator_result__table-wrapper {
