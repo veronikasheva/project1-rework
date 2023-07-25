@@ -6,7 +6,8 @@ from .models import Year
 
 def index(request):
     site = Site.objects.first()
-    years = Year.objects.all()
+    old_years = Year.objects.get(name='Старше')
+    years = Year.objects.exclude(name='Старше')
     return render(request, 'index.html', locals())
 
 
