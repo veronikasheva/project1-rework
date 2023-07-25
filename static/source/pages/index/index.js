@@ -20787,9 +20787,11 @@ category.addEventListener("change", function () {
   if (category_value === "trucks") {
     document.querySelector("#trucks-year").classList.remove("disabled");
     document.querySelector("#passenger-year").classList.add("disabled");
+    document.querySelector(".calculator__fields-wrapper").classList.add("is-trucks");
   } else {
     document.querySelector("#passenger-year").classList.remove("disabled");
     document.querySelector("#trucks-year").classList.add("disabled");
+    document.querySelector(".calculator__fields-wrapper").classList.remove("is-trucks");
   }
 });
 
