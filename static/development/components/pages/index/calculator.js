@@ -59,7 +59,7 @@ function calculate(e) {
 
     const cff_engine = engine / 1000;
     const cff_year =
-      current_year - year > 15
+      current_year - year > 15 || !year
         ? 15
         : current_year === year
         ? 1

@@ -20810,7 +20810,7 @@ function calculate(e) {
     }
 
     var cff_engine = engine / 1000;
-    var cff_year = current_year - year > 15 ? 15 : current_year === year ? 1 : current_year - year - 1;
+    var cff_year = current_year - year > 15 || !year ? 15 : current_year === year ? 1 : current_year - year - 1;
     var rate = engine >= +fuel.dataset.lim ? +fuel.dataset.max_rate : +fuel.dataset.min_rate;
     tableExciseRate.textContent = "".concat(cff_year, "x").concat(rate);
     return rate * cff_engine * cff_year;
