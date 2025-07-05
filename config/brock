@@ -1,5 +1,5 @@
 server{
-    server_name brock.in.ua;
+    server_name brock-imex.com;
     client_max_body_size 100M;
     location /media {
         alias /home/jurgeon/projects/brock/src/media;
@@ -13,16 +13,18 @@ server{
     }
 
 
+
+
     listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/brock.in.ua/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/brock.in.ua/privkey.pem; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/brock-imex.com/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/brock-imex.com/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
 }
 
 server{
-    server_name www.brock.in.ua;
+    server_name www.brock-imex.com;
     client_max_body_size 100M;
     location /media {
         alias /home/jurgeon/projects/brock/src/media;
@@ -36,33 +38,14 @@ server{
     }
 
 
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/www.brock.in.ua/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/www.brock.in.ua/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
 }
 server{
-    if ($host = brock.in.ua) {
+    if ($host = brock-imex.com) {
         return 301 https://$host$request_uri;
     } # managed by Certbot
 
 
-    server_name brock.in.ua;
-    listen 80;
-    return 404; # managed by Certbot
-
-
-}
-
-server{
-    if ($host = www.brock.in.ua) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    server_name www.brock.in.ua;
+    server_name brock-imex.com;
     listen 80;
     return 404; # managed by Certbot
 
