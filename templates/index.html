@@ -161,6 +161,12 @@
               src="/static/source/img/banner/port-terminal-konteinera-konteiner-krany-zaton-sudno-kontein.jpg"
               alt="slideImg"
             />
+            <div class="banner__text banner__right">
+            Працюємо по всій <b><span style="color: yellow;">Західній</span> <span style="color: blue;">Україні</span></b>
+          </div>
+          <div class="banner__img_money">
+            <img src="/static/source/img/banner/money.png" alt="">
+          </div>
           </div>
         </div>
         <div class="banner__left">
@@ -178,10 +184,21 @@
           <button class="btn_red modal_open" data-href="modal_consultation">
             Безкоштовна консультація
           </button>
-        </div>
-        <div class="banner__right">
-          <div class="banner__text">
-            Працюємо по всій Західній Україні
+          <div class="banner__text-down">
+            <span style="color: white;"><b style="font-size: 25px;">1</b>/3</span> Наступний 
+            <svg
+              class="arrow-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="85"
+              height="15"
+              viewBox="0 0 90 20"
+              fill="none"
+              >
+    <!-- Лінія -->
+    <line x1="0" y1="10" x2="85" y2="10" stroke="#3C8D5A" stroke-width="1" />
+    <!-- Стрілка -->
+    <polyline points="80,5 85,10 80,15" fill="none" stroke="#3C8D5A" stroke-width="1" />
+  </svg>
           </div>
         </div>
       </section>
@@ -192,6 +209,8 @@
             action="{% url 'contact' %}"
             class="calculator__form validation__block"
           >
+          <div class="calculator__"></div>
+          <div></div>
             <hgroup class="title">
               <h2 class="title_1">Калькулятор розмитнення авто</h2>
             </hgroup>
@@ -240,14 +259,6 @@
                   </div>
                 </div>
                 <div class="input_section_container">
-                  <div class="input_section">
-                    <label for="">Категорії транспортних засобів</label>
-                    <select name="category">
-                      <option value="passenger">Легкові</option>
-                      <option value="trucks">Вантажні</option>
-                    </select>
-                  </div>
-
                   <div class="input_section validation_container">
                     <label for="">Об’єм двигуна, куб.см</label>
                     <input
@@ -311,21 +322,19 @@
                       </select>
                     </div>
                   </div>
-                  <!--                            <div class="input_section validation_container">-->
-                  <!--                                <label for="">Ім’я*</label>-->
-                  <!--                                <input type="text" name="name" placeholder="Ваше ім’я" data-type="name"-->
-                  <!--                                    class="validation_input">-->
-                  <!--                            </div>-->
-                  <!--                            <div class="input_section validation_container">-->
-                  <!--                                <label for="">Email</label>-->
-                  <!--                                <input type="email" name="email" placeholder="Ваше email" data-type="email"-->
-                  <!--                                    class="validation_input">-->
-                  <!--                            </div>-->
-                  <!--                            <div class="input_section validation_container">-->
-                  <!--                                <label for="">Телефон*</label>-->
-                  <!--                                <input data-type="phone" name="phone" placeholder="+3 80 (___)  ___ ___"-->
-                  <!--                                    data-type="phone" class="validation_input">-->
-                  <!--                            </div>-->
+                  <div class="input_section validation_container">
+                      <label for="">Ім’я*</label>
+                      <input type="text" name="name" placeholder="Ваше ім’я" data-type="name" class="validation_input">
+                  </div>
+                  <div class="input_section validation_container">
+                      <label for="">Email</label>
+                      <input type="email" name="email" placeholder="Ваше email" data-type="email class="validation_input">
+                  </div>
+                  <div class="input_section validation_container">
+                      <label for="">Телефон*</label>
+                      <input data-type="phone" name="phone" placeholder="+3 80 (___)  ___ ___"
+                      data-type="phone" class="validation_input">
+                  </div>
                 </div>
 
                 <div class="calculator__bottom">
@@ -344,89 +353,7 @@
               </div>
               <div class="calculator__right">
                 <div class="calculator_result">
-                  <div class="calculator_result__table-wrapper">
-                    <table class="calculator_result__table">
-                      <thead>
-                        <tr class="calculator_result__table-row">
-                          <th class="calculator_result__table-row-title">
-                            Вид платежу
-                          </th>
-                          <th class="calculator_result__table-row-title">
-                            Основа нарахування
-                          </th>
-                          <th class="calculator_result__table-row-title">
-                            Ставка
-                          </th>
-                          <th class="calculator_result__table-row-title">
-                            Сума
-                          </th>
-                        </tr>
-                      </thead>
-
-                      <tbody>
-                        <tr
-                          class="calculator_result__table-row calculator_result__table-duty"
-                        >
-                          <th class="calculator_result__table-row-title">
-                            Мито
-                          </th>
-                          <td
-                            class="calculator_result__table-duty-basis-accrual"
-                          >
-                            -
-                          </td>
-                          <td class="calculator_result__table-duty-rate">
-                            10%
-                          </td>
-                          <td class="calculator_result__table-duty-result">
-                            -
-                          </td>
-                        </tr>
-
-                        <tr
-                          class="calculator_result__table-row calculator_result__table-excise"
-                        >
-                          <th class="calculator_result__table-row-title">
-                            Акциз
-                          </th>
-                          <td
-                            class="calculator_result__table-excise-basis-accrual"
-                          >
-                            -
-                          </td>
-                          <td class="calculator_result__table-excise-rate">
-                            -
-                          </td>
-                          <td class="calculator_result__table-excise-result">
-                            -
-                          </td>
-                        </tr>
-                        <tr
-                          class="calculator_result__table-row calculator_result__table-vat"
-                        >
-                          <th class="calculator_result__table-row-title">
-                            ПДВ
-                          </th>
-                          <td
-                            class="calculator_result__table-vat-basis-accrual"
-                          >
-                            -
-                          </td>
-                          <td class="calculator_result__table-vat-rate">20%</td>
-                          <td class="calculator_result__table-vat-result">-</td>
-                        </tr>
-                        <!-- <tr
-                          class="calculator_result__table-row calculator_result__table-summary"
-                        >
-                          <th class="calculator_result__table-row-title">Всього</th>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr> -->
-                      </tbody>
-                    </table>
-                  </div>
-                  <div class="calculator_result__title">Всього:</div>
+                  <div class="calculator_result__title">Результат:</div>
                   <div class="calculator_result__main">
                     <div class="calculator_result__price">
                       <span> Ціна (USD) </span>
@@ -437,7 +364,7 @@
                         $
                       </span>
                     </div>
-                    <!-- <div class="calculator_result__price">
+                     <div class="calculator_result__price">
                       <span> Ціна (EURO) </span>
                       <span class="calculator_result__price-value">
                         <span
@@ -448,8 +375,8 @@
                         >
                         €
                       </span>
-                    </div> -->
-                    <!-- <div class="calculator_result__price">
+                    </div> 
+                     <div class="calculator_result__price">
                       <span> Ціна (СAD) </span>
                       <span class="calculator_result__price-value">
                         <span class="result_currency cff_cad" id="result_cad"
@@ -457,7 +384,7 @@
                         >
                         ¢
                       </span>
-                    </div> -->
+                    </div> 
                     <div class="calculator_result__price">
                       <span> Ціна (UAN) </span>
                       <span class="calculator_result__price-value">

@@ -7,6 +7,7 @@
  * 3. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
  *  `em` units.
  */
+ 
 html {
   scroll-behavior: smooth; }
 
@@ -1773,7 +1774,7 @@ section {
 .banner {
   display: flex;
   justify-content: space-between;
-  /* position: relative;  */
+  position: relative;  
   background: linear-gradient(5.79deg, #010101 85.28%, #363a45 101.11%, #000000 101.11%);}
   @media (max-width: 1000px) {
     .banner {
@@ -1837,6 +1838,7 @@ section {
         .banner__img-2 {
           display: none; } }
   .banner__slide img {
+    position: relative;
     width: 807px;
     max-height: 650px;
     height: 100%;
@@ -1870,12 +1872,33 @@ section {
     font-size: 20px;
     line-height: 23px; }
 .banner__right{
-  right: 0px;
-  
+    position: absolute;
+    right: 20px;
+    padding: 10px 30px;
+    color: #D9CB9E;
+    background-color: #0000005a;
+}
+.banner__img_money img{
+  position: absolute;
+  right: 150px;
+  bottom: -120px;
+  width: 355px;
+  height: auto;
+}
+.banner__text-down{
+  margin-top: 9px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #3C8D5A;
+  font-weight: 300;
+}
+.arrow-icon {
+  vertical-align: middle;
+}
+.banner__text-down :hover{
+  cursor: pointer;
 }
 .calc-and-stages {
-  display: flex;
-  align-items: flex-start;
   padding: 40px 0; }
   @media (max-width: 1000px) {
     .calc-and-stages {
@@ -2152,16 +2175,9 @@ section {
       margin-bottom: 20px; }
 
 .calculator {
-  min-width: 500px;
-  max-width: 500px;
-  background: #83a8b5;
-  background: linear-gradient(180deg, #83a8b5 0%, white 25%);
+  background-color: rgba(255, 255, 255, 0.08);
   padding: 30px;
   color: #2c2c2c; }
-  @media (max-width: 1440px) {
-    .calculator {
-      min-width: 400px;
-      max-width: 400px; } }
   @media (max-width: 900px) {
     .calculator {
       width: 100%;
@@ -2218,7 +2234,7 @@ section {
   .calculator__left {
     width: 100%; }
     .calculator__left .input_section_container {
-      flex-direction: column; }
+      flex-direction: row; }
       .calculator__left .input_section_container .input_section {
         display: flex;
         flex-direction: column;
