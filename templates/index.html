@@ -182,9 +182,8 @@
                     <input type="number" name="engine" placeholder="2500" class="validation_input"
                       data-type="required" />
                   </div>
-                  <div class="calculator__fields-wrapper">
                     <div class="input_section">
-                      <label for="">Тип палива</label>
+                      <label for="">Тип топлива</label>
                       <select name="fuel">
                         <option value="gasoline" data-min_rate="50" data-max_rate="100" data-lim="3000">
                           Бензин
@@ -207,28 +206,17 @@
                         <option value="{{old_years.name}}">{{old_years.name}}</option>
                       </select>
                     </div>
-
-                    <div id="trucks-year" class="input_section disabled">
-                      <label for="">Кількість років у користування (з дати першої
-                        реєстрації)</label>
-                      <select name="trucks-year">
-                        <option value="-5">до 5 років</option>
-                        <option value="5-8">від 5 до 8 років</option>
-                        <option value="8+">більше 8 років</option>
-                      </select>
-                    </div>
-                  </div>
                   <div class="input_section validation_container">
-                    <label for="">Ім’я*</label>
+                    <label for="">Ім’я<span style="color: rgb(197, 13, 13);">*</span></label>
                     <input type="text" name="name" placeholder="Ваше ім’я" data-type="name" class="validation_input">
                   </div>
                   <div class="input_section validation_container">
                     <label for="">Email</label>
-                    <input type="email" name="email" placeholder="Ваше email" data-type="email class="
+                    <input type="email" name="email" placeholder="Ваше email" data-type="email" class="
                       validation_input">
                   </div>
                   <div class="input_section validation_container">
-                    <label for="">Телефон*</label>
+                    <label for="">Телефон<span style="color: rgb(197, 13, 13);">*</span></label>
                     <input data-type="phone" name="phone" placeholder="+3 80 (___)  ___ ___" data-type="phone"
                       class="validation_input">
                   </div>
@@ -236,38 +224,38 @@
               </div>
             </div>
             <div class="calculator__l">
-              <h2>Калькулятор</h2>
+              <h2 class="calculator__right-title">Калькулятор</h2>
               <div class="calculator_result">
                 <div class="calculator_result__title">Результат:</div>
                 <div class="calculator_result__main">
                   <div class="calculator_result__price">
-                    <span> Ціна (USD) </span>
+                    <span class="calculator_result__price-text">Ціна (USD) </span>
                     <span class="calculator_result__price-value">
                       <span class="result_currency cff_usd" id="result_usd">0</span>$</span>
                   </div>
                   <div class="calculator_result__price">
-                    <span> Ціна (EURO) </span>
+                    <span class="calculator_result__price-text"> Ціна (EURO) </span>
                     <span class="calculator_result__price-value">
                       <span class="result_currency cff_euro" id="result_euro" data-value="1">0</span>
                       €
                     </span>
                   </div>
                   <div class="calculator_result__price">
-                    <span> Ціна (СAD) </span>
+                    <span class="calculator_result__price-text"> Ціна (СAD) </span>
                     <span class="calculator_result__price-value">
                       <span class="result_currency cff_cad" id="result_cad">0</span>
                       ¢
                     </span>
                   </div>
                   <div class="calculator_result__price">
-                    <span> Ціна (UAN) </span>
+                    <span class="calculator_result__price-text"> Ціна (UAN) </span>
                     <span class="calculator_result__price-value">
                       <span class="result_currency cff_uan" id="result_uan">0</span>
                       ₴
                     </span>
                   </div>
                 </div>
-                <div>
+                <div style="color: #BDC3C7;">
                   *розрахунок зроблено за новими тарифами (закон №8487.8488)
                 </div>
               </div>
@@ -290,7 +278,7 @@
                   USD
                 </span>
                 <span id="curse_usd">
-                   36.5686 
+                   <!-- 36.5686  -->
                 </span>
               </div>
               <div class="calculator_course__item">
