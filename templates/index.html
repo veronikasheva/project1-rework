@@ -88,29 +88,32 @@
       <form action="{% url 'contact' %}" class="validation__block consultation_form">
         <!-- {% csrf_token %} -->
         <div class="validation_container input_section">
-          <label for=""> Ваше ім’я * </label>
+          <label for=""> Ваше ім’я <span style="color: rgb(218, 16, 16);">*</span></label>
           <input class="validation_input" data-type="name" name="name" placeholder="Введіть ім’я" type="text" />
         </div>
         <div class="validation_container input_section">
-          <label for=""> Ваш телефон * </label>
+          <label for=""> Ваш телефон <span style="color: rgb(218, 16, 16);">*</span></label>
           <input class="validation_input" data-type="phone" name="phone" placeholder="+ 3 8 (___) ___ ___" />
         </div>
         <div class="validation_container input_section">
-          <label for=""> Ваш Email * </label>
+          <label for=""> Ваш Email <span style="color: rgb(218, 16, 16);">*</span></label>
           <input type="email" class="validation_input" data-type="email" name="email"
             placeholder="Введіть свій еmail" />
         </div>
         <div class="modal_btn">
-          <button class="validation_btn btn_green" type="submit">
+          <button class="validation_btn btn_red" type="submit">
             Замовити
           </button>
-          <div class="btn_red modal_close">Скасувати</div>
+          <div class="btn_green modal_close">Скасувати</div>
         </div>
       </form>
     </div>
   </header>
 
   <main>
+    <button class="btn_fixed modal_open" data-href="modal_consultation">
+      Кнопка <br>зв'язку
+    </button>
     <section class="banner swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide banner__slide">
@@ -154,6 +157,9 @@
     </section>
 
     <section class="calc-and-stages">
+      <div class="banner__img_time">
+            <img src="/static/source/img/banner/time.png" alt="">
+          </div>
       <div class="calculator text_std" id="calculator">
         <form action="{% url 'contact' %}" class="calculator__form validation__block">
           <div class="calculator__container">
@@ -234,17 +240,16 @@
                       <span class="result_currency cff_usd" id="result_usd">0</span>$</span>
                   </div>
                   <div class="calculator_result__price">
-                    <span class="calculator_result__price-text"> Ціна (EURO) </span>
-                    <span class="calculator_result__price-value">
-                      <span class="result_currency cff_euro" id="result_euro" data-value="1">0</span>
-                      €
-                    </span>
-                  </div>
-                  <div class="calculator_result__price">
                     <span class="calculator_result__price-text"> Ціна (СAD) </span>
                     <span class="calculator_result__price-value">
                       <span class="result_currency cff_cad" id="result_cad">0</span>
                       ¢
+                    </span>
+                  </div>
+                  <div class="calculator_result__price">
+                    <span class="calculator_result__price-text"> Ціна (EURO) </span>
+                    <span class="calculator_result__price-value">
+                      <span class="result_currency cff_euro" id="result_euro" data-value="1">0</span>€
                     </span>
                   </div>
                   <div class="calculator_result__price">
@@ -571,7 +576,7 @@
             {{site.mail}}
           </a>
           <a>
-            Понеділок - П'ятниця з 9:00 до 18:00
+            Понеділок - П'ятниця <br> з 9:00 до 18:00
             <br />
             Субота - Неділя Вихідні
           </a>
@@ -604,11 +609,11 @@
         <img src="/static/source/img/common/Frame 1.svg" alt="phone" />
         {{site.phone}}
       </a>
-      <a href="{{site.instagram}}">
-        <img src="/static/source/img/common/Frame 14.svg" alt="" />
-      </a>
       <a href="{{site.facebook}}">
         <img src="/static/source/img/common/Frame 15.svg" alt="" />
+      </a>
+      <a href="{{site.instagram}}">
+        <img src="/static/source/img/common/Frame 14.svg" alt="" />
       </a>
     </address>
     <a href="https://starway.agency/">
