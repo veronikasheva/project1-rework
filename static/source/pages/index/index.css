@@ -708,7 +708,14 @@ input::-webkit-inner-spin-button {
   .input_section__top {
     display: flex;
     flex-direction: column; }
-
+@media (max-width: 767px){
+.input_section_container{
+  display: block;
+}
+.text_down{
+  margin-bottom: 15px;
+}
+}
 input, select {
   background: none;
   border: 1px solid #2C2C2C;
@@ -1790,7 +1797,7 @@ section {
       margin: 0; } }
   @media (max-width: 450px) {
     section {
-      padding: 20px; } }
+      padding: 20px; }} 
 
 .section_bg {
   background: rgba(255, 255, 255, 0.1);
@@ -1920,7 +1927,7 @@ section {
   height: auto;
   right: 95px;
   top: 390px;
-  z-index: 100;
+  z-index: 9;
 }
   @media (max-width: 900px) {
     .banner__img_time img{
@@ -1933,26 +1940,20 @@ section {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        filter: brightness(1);
-        float: right; }
-        .banner {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 0px;
-          position: relative;  
-          background: linear-gradient(5.79deg, #010101 85.28%, #363a45 101.11%, #000000 101.11%);}
-  }
-  @media (max-width: 450px) {
-    .banner__img_time img{
-      display: none;        
-    }
+        filter: brightness(1); }
     .banner__img_money img{
-      position: absolute;
-      right: -10px;
-      bottom: -120px;
-      width: 281px;
-      height: auto;
-    }
+        position: absolute;
+        right: 50px;
+        bottom: -50px;
+        width: 281px;
+        height: auto;
+      }  
+      .banner__right{
+        left: 0px;
+       } 
+      .banner__img_time img{
+      display: none;  } }
+  @media (max-width: 480px) {
     .banner__slide img {
     position: relative;
     width: 100%;
@@ -1960,12 +1961,22 @@ section {
     object-fit: cover;
     filter: brightness(1);
      }
-    
+    .banner__img_money img{
+      width: 200px;
+      height: auto;
+      top: -110px;
+    }
     .banner__left {
       /* position: absolute; */
       z-index: 1000;
       top: 5%;
-      left: 0; }  }
+      left: 0; } 
+    .work__items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 40px; } }
+
 .banner__text-down{
   margin-top: 9px;
   font-family: 'Roboto', sans-serif;
@@ -2014,6 +2025,9 @@ section {
     color: #ffffff;
     font-weight: 500;
     font-size: 16px; }
+  @media (max-width: 480px){
+    .work__item{
+      width: 49%; } }
     .work__item span {
       position: absolute;
       left: 5px;
@@ -2428,6 +2442,16 @@ section {
   display: grid;
   grid-template-columns: 1fr 0.7fr; 
   gap: 20px;
+}
+@media (max-width: 767px){
+  .calculator__container{
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 20px;
+}
+.calculator__bottom{
+ display: block;
+}
 }
 .calculator__right-title{
   font-size: 50px;
