@@ -1792,7 +1792,7 @@ section {
   margin: 0 100px;
   padding-top: 0;
   padding: 40px; }
-  @media (max-width: 1000px) {
+  @media (max-width: 1044px) {
     section {
       margin: 0; } }
   @media (max-width: 450px) {
@@ -2308,6 +2308,10 @@ section {
     @media (max-width: 900px) {
       .calculator__form {
         max-width: 500px; } }
+    @media (max-width: 890px){
+      .calculator__form {
+        max-width: 800px; }
+    }
   .calculator__top {
     display: flex;
     flex-direction: row;
