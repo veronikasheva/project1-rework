@@ -599,7 +599,6 @@ main {
   line-height: 16px;
   color: #BDC3C7; }
 
-@charset "UTF-8";
 .input {
   border: 1px solid #F2F2F2;
   border-radius: 8px;
@@ -1457,7 +1456,6 @@ button.swiper-pagination-bullet {
           backface-visibility: hidden;
 }
 
-@charset "UTF-8";
 .swiper-pagination {
   padding: 0 100px;
   text-align: start; }
